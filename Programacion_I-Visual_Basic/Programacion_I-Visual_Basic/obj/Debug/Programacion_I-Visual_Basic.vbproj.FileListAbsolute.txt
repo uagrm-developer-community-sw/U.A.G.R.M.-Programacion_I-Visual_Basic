@@ -1,0 +1,13 @@
+D:\UAGRM - FICCT\2 - PROGRAMACION I\U.A.G.R.M.-Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\bin\Debug\Programacion_I-Visual_Basic.exe.config
+D:\UAGRM - FICCT\2 - PROGRAMACION I\U.A.G.R.M.-Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\bin\Debug\Programacion_I-Visual_Basic.exe
+D:\UAGRM - FICCT\2 - PROGRAMACION I\U.A.G.R.M.-Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\bin\Debug\Programacion_I-Visual_Basic.pdb
+D:\UAGRM - FICCT\2 - PROGRAMACION I\U.A.G.R.M.-Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\bin\Debug\Programacion_I-Visual_Basic.xml
+D:\UAGRM - FICCT\2 - PROGRAMACION I\U.A.G.R.M.-Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\obj\Debug\Programacion_I-Visual_Basic.vbprojAssemblyReference.cache
+D:\UAGRM - FICCT\2 - PROGRAMACION I\U.A.G.R.M.-Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\obj\Debug\Programacion_I_Visual_Basic.Formulario_Principal.resources
+D:\UAGRM - FICCT\2 - PROGRAMACION I\U.A.G.R.M.-Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\obj\Debug\Programacion_I_Visual_Basic.Resources.resources
+D:\UAGRM - FICCT\2 - PROGRAMACION I\U.A.G.R.M.-Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\obj\Debug\Programacion_I-Visual_Basic.vbproj.GenerateResource.cache
+D:\UAGRM - FICCT\2 - PROGRAMACION I\U.A.G.R.M.-Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\obj\Debug\Programacion_I-Visual_Basic.vbproj.CoreCompileInputs.cache
+D:\UAGRM - FICCT\2 - PROGRAMACION I\U.A.G.R.M.-Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\obj\Debug\Programacion_I-Visual_Basic.exe
+D:\UAGRM - FICCT\2 - PROGRAMACION I\U.A.G.R.M.-Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\obj\Debug\Programacion_I-Visual_Basic.xml
+D:\UAGRM - FICCT\2 - PROGRAMACION I\U.A.G.R.M.-Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\obj\Debug\Programacion_I-Visual_Basic.pdb
+D:\UAGRM - FICCT\2 - PROGRAMACION I\U.A.G.R.M.-Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\Programacion_I-Visual_Basic\obj\Debug\Programacion_I_Visual_Basic.Formularo_Numeros_Naturales.resources
