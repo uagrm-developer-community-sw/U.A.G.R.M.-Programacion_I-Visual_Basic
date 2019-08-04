@@ -2,14 +2,14 @@
 Universidad: U.A.G.R.M. - Materia: Programacion I - Lenguaje: Visual Basic - IDE: Visual Estudio 2019 Community
 
 ***************************************************************************************************************
-# IDE: VISUAL STUDIO COMMUNITY 
+# Ide: Visual Studio Community 
 ![VisualStudioCommunity](Imagenes/vs2019.png)
 ----------------------------------------------------------------------------------------------------------------
-# IMAGEN FORMULARIO PRINCIPAL
+# Imagen: Formulario Principal
 ![formularioprincipal](Imagenes/formularioprincipal.png)
 ---------------------------------------------------------------------------------------------------------------
-# CLASS NUMEROS ENTEROS
-# INCIO
+# Class Numeros Enteros
+# Inicio
 Ejercicios:
 
 1. 'CARGAR
@@ -17,7 +17,7 @@ Ejercicios:
 3. 'LIMPIAR
 4. 'SALIR
 ----------------------------------------------------------------------------------------------------------------
-# HERRAMIENTAS
+# Herramientas
 
 Ejercicios:
 
@@ -42,7 +42,7 @@ Ejercicios:
 19. 'INTERCALAR DIGITOS (MAYOR,MENOR,MAYOR,MENOR,...)
 20. 'VERIFICAR SI UN NUMERO ES FIBONACCI
 ----------------------------------------------------------------------------------------------------------------
-# PRACTICO I - Parte
+# Practico I - Parte
 
 Ejercicios:
 
@@ -50,12 +50,12 @@ Ejercicios:
 2. 'CONTAR DIGITOS QUE PERTENCEN A LA SERIE FIBONACCI
 3. 'VERIFICAR SI TODOS LOS DIGITOS SON PRIMOS
 4. 'VERIFICAR SI LOS DIGITOS ESTAN EN ORDEN DESCENDENTE
-5. 'ELIMINAR DIGITOS MULTIPLOS DE D1
+5. 'ELIMINAR DIGITOS MULTIPLOS DE D
 6. 'REORDENAR DIGITOS (PRIMOS AL PRINCIPIO, NO PRIMOS AL FINAL,...)
 7. 'FORMAR UN NUMERO CON DIGITOS REPETIDOS
 8. 'VERIFICAR SI TODOS LOS DIGITOS NO SE REPITEN
 ----------------------------------------------------------------------------------------------------------------
-# PRACTICO II - Parte
+# Practico II - Parte
 
 Ejercicios:
 
@@ -64,5 +64,5 @@ Ejercicios:
 3. 'INTERCALAR (PRIMOS, NO PRIMOS,PRIMOS, NO PRIMOS,...)
 4. 'ROTAR M DIGITOS
 ----------------------------------------------------------------------------------------------------------------
-# FORMULARIO NUMEROS NENTEROS
+# Imagen: Formulario Numeros enteros
 ![VisualStudioCommunity](Imagenes/formularionumerosenteros.png)

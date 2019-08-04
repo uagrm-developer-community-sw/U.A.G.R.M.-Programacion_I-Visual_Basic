@@ -33,34 +33,10 @@ Partial Class Formularo_Numeros_Enteros
         Me.ContarDgitosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DigitoMayorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DigitoMenorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PRACTICO2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TxtBx1 = New System.Windows.Forms.TextBox()
-        Me.TxtBx2 = New System.Windows.Forms.TextBox()
-        Me.BtnFNNCargar = New System.Windows.Forms.Button()
-        Me.BtnFNNDescargar = New System.Windows.Forms.Button()
-        Me.BtnFNNLimpiar = New System.Windows.Forms.Button()
-        Me.BtnFNNSalir = New System.Windows.Forms.Button()
-        Me.TxtBx3 = New System.Windows.Forms.TextBox()
-        Me.BtnFNNLimTxtBx1 = New System.Windows.Forms.Button()
-        Me.BtnFNNLimTxtBx2 = New System.Windows.Forms.Button()
-        Me.BtnFNNLimTxtBx3 = New System.Windows.Forms.Button()
-        Me.PcBxFNNLogo = New System.Windows.Forms.PictureBox()
+        Me.CONTARDIGITOSSUBMULTIPLOSDEMToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NinclnumToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CONTARDIGITOSCONFRECUENCIAPARToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CONTARDIGITOSQUEPERTENCENALASERIEFIBONACCIToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VERIFICARSITODOSLOSDIGITOSSONPRIMOSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VERIFICARSILOSDIGITOSESTANENORDENDESCENDENTEToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ELIMINARDIGITOSMULTIPLOSDED1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.REORDENARDIGITOSPRIMOSALPRINCIPIONOPRIMOSALFINALToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FORMARUNNUMEROCONDIGITOSREPETIDOSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VERIFICARSITODOSLOSDIGITOSNOSEREPITENToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PRACTICO2ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VERIFICARSILOSDIGITOSESTANENRAZONDEDOSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ROTARUNDIGITOToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.INTERCALARPRIMOSNOPRIMOSPRIMOSNOPRIMOSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ROTARMDIGITOSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VERIFICARSITODOSLOSDIGITOSSONIGUALESToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FRECUENCIADEUNDIGITOToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VERIFICARSITODOSLOSDIGITOSSEREPITENToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -75,7 +51,31 @@ Partial Class Formularo_Numeros_Enteros
         Me.ORDENARDIGITOSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.INTERCALARDIGITOSMAYORMENORMAYORMENORToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VERIFICARSIUNNUMEROESFIBONACCIToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CONTARDIGITOSSUBMULTIPLOSDEMToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PRACTICO2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CONTARDIGITOSCONFRECUENCIAPARToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CONTARDIGITOSQUEPERTENCENALASERIEFIBONACCIToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VERIFICARSITODOSLOSDIGITOSSONPRIMOSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VERIFICARSILOSDIGITOSESTANENORDENDESCENDENTEToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ELIMINARDIGITOSMULTIPLOSDED1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.REORDENARDIGITOSPRIMOSALPRINCIPIONOPRIMOSALFINALToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FORMARUNNUMEROCONDIGITOSREPETIDOSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VERIFICARSITODOSLOSDIGITOSNOSEREPITENToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PRACTICO2ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VERIFICARSILOSDIGITOSESTANENRAZONDEDOSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ROTARUNDIGITOToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.INTERCALARPRIMOSNOPRIMOSPRIMOSNOPRIMOSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ROTARMDIGITOSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TxtBx1 = New System.Windows.Forms.TextBox()
+        Me.TxtBx2 = New System.Windows.Forms.TextBox()
+        Me.BtnFNNCargar = New System.Windows.Forms.Button()
+        Me.BtnFNNDescargar = New System.Windows.Forms.Button()
+        Me.BtnFNNLimpiar = New System.Windows.Forms.Button()
+        Me.BtnFNNSalir = New System.Windows.Forms.Button()
+        Me.TxtBx3 = New System.Windows.Forms.TextBox()
+        Me.BtnFNNLimTxtBx1 = New System.Windows.Forms.Button()
+        Me.BtnFNNLimTxtBx2 = New System.Windows.Forms.Button()
+        Me.BtnFNNLimTxtBx3 = New System.Windows.Forms.Button()
+        Me.PcBxFNNLogo = New System.Windows.Forms.PictureBox()
         Me.MnStrpFNN.SuspendLayout()
         CType(Me.PcBxFNNLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -145,12 +145,199 @@ Partial Class Formularo_Numeros_Enteros
         Me.DigitoMenorToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
         Me.DigitoMenorToolStripMenuItem.Text = "ENCONTRAR EL DIGITO MENOR"
         '
+        'CONTARDIGITOSSUBMULTIPLOSDEMToolStripMenuItem
+        '
+        Me.CONTARDIGITOSSUBMULTIPLOSDEMToolStripMenuItem.Name = "CONTARDIGITOSSUBMULTIPLOSDEMToolStripMenuItem"
+        Me.CONTARDIGITOSSUBMULTIPLOSDEMToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.CONTARDIGITOSSUBMULTIPLOSDEMToolStripMenuItem.Text = "CONTAR DIGITOS SUBMULTIPLOS DE M"
+        '
+        'ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem
+        '
+        Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem.Name = "ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem"
+        Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem.Text = "CONTAR LAS VECES QUE M SE ENCUENTRA EN N "
+        '
+        'NinclnumToolStripMenuItem
+        '
+        Me.NinclnumToolStripMenuItem.Name = "NinclnumToolStripMenuItem"
+        Me.NinclnumToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.NinclnumToolStripMenuItem.Text = "Contar digitos submultiplos de m"
+        '
+        'BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem
+        '
+        Me.BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem.Name = "BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem"
+        Me.BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem.Text = "BUSCAR SI EXISTE UN DIGITO EN UN NUMERO DE Class_Numero_Entero"
+        '
+        'VERIFICARSITODOSLOSDIGITOSSONIGUALESToolStripMenuItem
+        '
+        Me.VERIFICARSITODOSLOSDIGITOSSONIGUALESToolStripMenuItem.Name = "VERIFICARSITODOSLOSDIGITOSSONIGUALESToolStripMenuItem"
+        Me.VERIFICARSITODOSLOSDIGITOSSONIGUALESToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.VERIFICARSITODOSLOSDIGITOSSONIGUALESToolStripMenuItem.Text = "VERIFICAR SI TODOS LOS DIGITOS SON IGUALES"
+        '
+        'FRECUENCIADEUNDIGITOToolStripMenuItem
+        '
+        Me.FRECUENCIADEUNDIGITOToolStripMenuItem.Name = "FRECUENCIADEUNDIGITOToolStripMenuItem"
+        Me.FRECUENCIADEUNDIGITOToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.FRECUENCIADEUNDIGITOToolStripMenuItem.Text = "FRECUENCIA DE UN DIGITO"
+        '
+        'VERIFICARSITODOSLOSDIGITOSSEREPITENToolStripMenuItem
+        '
+        Me.VERIFICARSITODOSLOSDIGITOSSEREPITENToolStripMenuItem.Name = "VERIFICARSITODOSLOSDIGITOSSEREPITENToolStripMenuItem"
+        Me.VERIFICARSITODOSLOSDIGITOSSEREPITENToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.VERIFICARSITODOSLOSDIGITOSSEREPITENToolStripMenuItem.Text = "VERIFICAR SI TODOS LOS DIGITOS SE REPITEN"
+        '
+        'INVERTIRUNNUMERODEClassNumeroEnteroToolStripMenuItem
+        '
+        Me.INVERTIRUNNUMERODEClassNumeroEnteroToolStripMenuItem.Name = "INVERTIRUNNUMERODEClassNumeroEnteroToolStripMenuItem"
+        Me.INVERTIRUNNUMERODEClassNumeroEnteroToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.INVERTIRUNNUMERODEClassNumeroEnteroToolStripMenuItem.Text = "INVERTIR UN NUMERO DE Class_Numero_Entero"
+        '
+        'VERIFICARSIUNNUMERODEClassNumeroEnteroESCAPICUAToolStripMenuItem
+        '
+        Me.VERIFICARSIUNNUMERODEClassNumeroEnteroESCAPICUAToolStripMenuItem.Name = "VERIFICARSIUNNUMERODEClassNumeroEnteroESCAPICUAToolStripMenuItem"
+        Me.VERIFICARSIUNNUMERODEClassNumeroEnteroESCAPICUAToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.VERIFICARSIUNNUMERODEClassNumeroEnteroESCAPICUAToolStripMenuItem.Text = "VERIFICAR SI UN NUMERO DE Class_Numero_Entero ES CAPICUA"
+        '
+        'CONVERTIRUNNUMERODEClassNumeroEnteroENBINARIOToolStripMenuItem
+        '
+        Me.CONVERTIRUNNUMERODEClassNumeroEnteroENBINARIOToolStripMenuItem.Name = "CONVERTIRUNNUMERODEClassNumeroEnteroENBINARIOToolStripMenuItem"
+        Me.CONVERTIRUNNUMERODEClassNumeroEnteroENBINARIOToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.CONVERTIRUNNUMERODEClassNumeroEnteroENBINARIOToolStripMenuItem.Text = "CONVERTIR UN NUMERO DE Class_Numero_Entero EN BINARIO"
+        '
+        'CONVERTIRUNDECIMALAOTRABASE29ToolStripMenuItem
+        '
+        Me.CONVERTIRUNDECIMALAOTRABASE29ToolStripMenuItem.Name = "CONVERTIRUNDECIMALAOTRABASE29ToolStripMenuItem"
+        Me.CONVERTIRUNDECIMALAOTRABASE29ToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.CONVERTIRUNDECIMALAOTRABASE29ToolStripMenuItem.Text = "CONVERTIR UN DECIMAL A OTRA BASE(2..9)"
+        '
+        'FORMARUNNUMERODEClassNumeroEnteroCONDIGITOSPARESToolStripMenuItem
+        '
+        Me.FORMARUNNUMERODEClassNumeroEnteroCONDIGITOSPARESToolStripMenuItem.Name = "FORMARUNNUMERODEClassNumeroEnteroCONDIGITOSPARESToolStripMenuItem"
+        Me.FORMARUNNUMERODEClassNumeroEnteroCONDIGITOSPARESToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.FORMARUNNUMERODEClassNumeroEnteroCONDIGITOSPARESToolStripMenuItem.Text = "FORMAR UN NUMERO DE Class_Numero_Entero CON DIGITOS PARES"
+        '
+        'FUSIONARDOSNUMEROSDEClassNumeroEnteroToolStripMenuItem
+        '
+        Me.FUSIONARDOSNUMEROSDEClassNumeroEnteroToolStripMenuItem.Name = "FUSIONARDOSNUMEROSDEClassNumeroEnteroToolStripMenuItem"
+        Me.FUSIONARDOSNUMEROSDEClassNumeroEnteroToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.FUSIONARDOSNUMEROSDEClassNumeroEnteroToolStripMenuItem.Text = "FUSIONAR DOS NUMEROS DE Class_Numero_Entero"
+        '
+        'SEGMENTARORDENADAMENTEENPARESEIMPARESToolStripMenuItem
+        '
+        Me.SEGMENTARORDENADAMENTEENPARESEIMPARESToolStripMenuItem.Name = "SEGMENTARORDENADAMENTEENPARESEIMPARESToolStripMenuItem"
+        Me.SEGMENTARORDENADAMENTEENPARESEIMPARESToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.SEGMENTARORDENADAMENTEENPARESEIMPARESToolStripMenuItem.Text = "SEGMENTAR ORDENADAMENTE EN PARES E IMPARES"
+        '
+        'CORTARUNDIGITODEUNNUMERODEClassNumeroEnteroToolStripMenuItem
+        '
+        Me.CORTARUNDIGITODEUNNUMERODEClassNumeroEnteroToolStripMenuItem.Name = "CORTARUNDIGITODEUNNUMERODEClassNumeroEnteroToolStripMenuItem"
+        Me.CORTARUNDIGITODEUNNUMERODEClassNumeroEnteroToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.CORTARUNDIGITODEUNNUMERODEClassNumeroEnteroToolStripMenuItem.Text = "CORTAR UN DIGITO DE UN NUMERO DE Class_Numero_Entero"
+        '
+        'ORDENARDIGITOSToolStripMenuItem
+        '
+        Me.ORDENARDIGITOSToolStripMenuItem.Name = "ORDENARDIGITOSToolStripMenuItem"
+        Me.ORDENARDIGITOSToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.ORDENARDIGITOSToolStripMenuItem.Text = "ORDENAR DIGITOS"
+        '
+        'INTERCALARDIGITOSMAYORMENORMAYORMENORToolStripMenuItem
+        '
+        Me.INTERCALARDIGITOSMAYORMENORMAYORMENORToolStripMenuItem.Name = "INTERCALARDIGITOSMAYORMENORMAYORMENORToolStripMenuItem"
+        Me.INTERCALARDIGITOSMAYORMENORMAYORMENORToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.INTERCALARDIGITOSMAYORMENORMAYORMENORToolStripMenuItem.Text = "INTERCALAR DIGITOS (MAYOR,MENOR,MAYOR,MENOR,...)"
+        '
+        'VERIFICARSIUNNUMEROESFIBONACCIToolStripMenuItem
+        '
+        Me.VERIFICARSIUNNUMEROESFIBONACCIToolStripMenuItem.Name = "VERIFICARSIUNNUMEROESFIBONACCIToolStripMenuItem"
+        Me.VERIFICARSIUNNUMEROESFIBONACCIToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
+        Me.VERIFICARSIUNNUMEROESFIBONACCIToolStripMenuItem.Text = "VERIFICAR SI UN NUMERO ES FIBONACCI"
+        '
         'PRACTICO2ToolStripMenuItem
         '
         Me.PRACTICO2ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CONTARDIGITOSCONFRECUENCIAPARToolStripMenuItem, Me.CONTARDIGITOSQUEPERTENCENALASERIEFIBONACCIToolStripMenuItem, Me.VERIFICARSITODOSLOSDIGITOSSONPRIMOSToolStripMenuItem, Me.VERIFICARSILOSDIGITOSESTANENORDENDESCENDENTEToolStripMenuItem, Me.ELIMINARDIGITOSMULTIPLOSDED1ToolStripMenuItem, Me.REORDENARDIGITOSPRIMOSALPRINCIPIONOPRIMOSALFINALToolStripMenuItem, Me.FORMARUNNUMEROCONDIGITOSREPETIDOSToolStripMenuItem, Me.VERIFICARSITODOSLOSDIGITOSNOSEREPITENToolStripMenuItem})
         Me.PRACTICO2ToolStripMenuItem.Name = "PRACTICO2ToolStripMenuItem"
         Me.PRACTICO2ToolStripMenuItem.Size = New System.Drawing.Size(132, 20)
         Me.PRACTICO2ToolStripMenuItem.Text = "PRACTICO 1° - PARTE"
+        '
+        'CONTARDIGITOSCONFRECUENCIAPARToolStripMenuItem
+        '
+        Me.CONTARDIGITOSCONFRECUENCIAPARToolStripMenuItem.Name = "CONTARDIGITOSCONFRECUENCIAPARToolStripMenuItem"
+        Me.CONTARDIGITOSCONFRECUENCIAPARToolStripMenuItem.Size = New System.Drawing.Size(438, 22)
+        Me.CONTARDIGITOSCONFRECUENCIAPARToolStripMenuItem.Text = "CONTAR DIGITOS CON FRECUENCIA PAR"
+        '
+        'CONTARDIGITOSQUEPERTENCENALASERIEFIBONACCIToolStripMenuItem
+        '
+        Me.CONTARDIGITOSQUEPERTENCENALASERIEFIBONACCIToolStripMenuItem.Name = "CONTARDIGITOSQUEPERTENCENALASERIEFIBONACCIToolStripMenuItem"
+        Me.CONTARDIGITOSQUEPERTENCENALASERIEFIBONACCIToolStripMenuItem.Size = New System.Drawing.Size(438, 22)
+        Me.CONTARDIGITOSQUEPERTENCENALASERIEFIBONACCIToolStripMenuItem.Text = "CONTAR DIGITOS QUE PERTENCEN A LA SERIE FIBONACCI"
+        '
+        'VERIFICARSITODOSLOSDIGITOSSONPRIMOSToolStripMenuItem
+        '
+        Me.VERIFICARSITODOSLOSDIGITOSSONPRIMOSToolStripMenuItem.Name = "VERIFICARSITODOSLOSDIGITOSSONPRIMOSToolStripMenuItem"
+        Me.VERIFICARSITODOSLOSDIGITOSSONPRIMOSToolStripMenuItem.Size = New System.Drawing.Size(438, 22)
+        Me.VERIFICARSITODOSLOSDIGITOSSONPRIMOSToolStripMenuItem.Text = "VERIFICAR SI TODOS LOS DIGITOS SON PRIMOS"
+        '
+        'VERIFICARSILOSDIGITOSESTANENORDENDESCENDENTEToolStripMenuItem
+        '
+        Me.VERIFICARSILOSDIGITOSESTANENORDENDESCENDENTEToolStripMenuItem.Name = "VERIFICARSILOSDIGITOSESTANENORDENDESCENDENTEToolStripMenuItem"
+        Me.VERIFICARSILOSDIGITOSESTANENORDENDESCENDENTEToolStripMenuItem.Size = New System.Drawing.Size(438, 22)
+        Me.VERIFICARSILOSDIGITOSESTANENORDENDESCENDENTEToolStripMenuItem.Text = "VERIFICAR SI LOS DIGITOS ESTAN EN ORDEN DESCENDENTE"
+        '
+        'ELIMINARDIGITOSMULTIPLOSDED1ToolStripMenuItem
+        '
+        Me.ELIMINARDIGITOSMULTIPLOSDED1ToolStripMenuItem.Name = "ELIMINARDIGITOSMULTIPLOSDED1ToolStripMenuItem"
+        Me.ELIMINARDIGITOSMULTIPLOSDED1ToolStripMenuItem.Size = New System.Drawing.Size(438, 22)
+        Me.ELIMINARDIGITOSMULTIPLOSDED1ToolStripMenuItem.Text = "ELIMINAR DIGITOS MULTIPLOS DE D"
+        '
+        'REORDENARDIGITOSPRIMOSALPRINCIPIONOPRIMOSALFINALToolStripMenuItem
+        '
+        Me.REORDENARDIGITOSPRIMOSALPRINCIPIONOPRIMOSALFINALToolStripMenuItem.Name = "REORDENARDIGITOSPRIMOSALPRINCIPIONOPRIMOSALFINALToolStripMenuItem"
+        Me.REORDENARDIGITOSPRIMOSALPRINCIPIONOPRIMOSALFINALToolStripMenuItem.Size = New System.Drawing.Size(438, 22)
+        Me.REORDENARDIGITOSPRIMOSALPRINCIPIONOPRIMOSALFINALToolStripMenuItem.Text = "REORDENAR DIGITOS (PRIMOS AL PRINCIPIO, NO PRIMOS AL FINAL)"
+        '
+        'FORMARUNNUMEROCONDIGITOSREPETIDOSToolStripMenuItem
+        '
+        Me.FORMARUNNUMEROCONDIGITOSREPETIDOSToolStripMenuItem.Name = "FORMARUNNUMEROCONDIGITOSREPETIDOSToolStripMenuItem"
+        Me.FORMARUNNUMEROCONDIGITOSREPETIDOSToolStripMenuItem.Size = New System.Drawing.Size(438, 22)
+        Me.FORMARUNNUMEROCONDIGITOSREPETIDOSToolStripMenuItem.Text = "FORMAR UN NUMERO CON DIGITOS REPETIDOS"
+        '
+        'VERIFICARSITODOSLOSDIGITOSNOSEREPITENToolStripMenuItem
+        '
+        Me.VERIFICARSITODOSLOSDIGITOSNOSEREPITENToolStripMenuItem.Name = "VERIFICARSITODOSLOSDIGITOSNOSEREPITENToolStripMenuItem"
+        Me.VERIFICARSITODOSLOSDIGITOSNOSEREPITENToolStripMenuItem.Size = New System.Drawing.Size(438, 22)
+        Me.VERIFICARSITODOSLOSDIGITOSNOSEREPITENToolStripMenuItem.Text = "VERIFICAR SI TODOS LOS DIGITOS NO SE REPITEN"
+        '
+        'PRACTICO2ToolStripMenuItem1
+        '
+        Me.PRACTICO2ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VERIFICARSILOSDIGITOSESTANENRAZONDEDOSToolStripMenuItem, Me.ROTARUNDIGITOToolStripMenuItem, Me.INTERCALARPRIMOSNOPRIMOSPRIMOSNOPRIMOSToolStripMenuItem, Me.ROTARMDIGITOSToolStripMenuItem})
+        Me.PRACTICO2ToolStripMenuItem1.Name = "PRACTICO2ToolStripMenuItem1"
+        Me.PRACTICO2ToolStripMenuItem1.Size = New System.Drawing.Size(132, 20)
+        Me.PRACTICO2ToolStripMenuItem1.Text = "PRACTICO 2° - PARTE"
+        '
+        'VERIFICARSILOSDIGITOSESTANENRAZONDEDOSToolStripMenuItem
+        '
+        Me.VERIFICARSILOSDIGITOSESTANENRAZONDEDOSToolStripMenuItem.Name = "VERIFICARSILOSDIGITOSESTANENRAZONDEDOSToolStripMenuItem"
+        Me.VERIFICARSILOSDIGITOSESTANENRAZONDEDOSToolStripMenuItem.Size = New System.Drawing.Size(394, 22)
+        Me.VERIFICARSILOSDIGITOSESTANENRAZONDEDOSToolStripMenuItem.Text = "VERIFICAR SI LOS DIGITOS ESTAN EN RAZON DE DOS"
+        '
+        'ROTARUNDIGITOToolStripMenuItem
+        '
+        Me.ROTARUNDIGITOToolStripMenuItem.Name = "ROTARUNDIGITOToolStripMenuItem"
+        Me.ROTARUNDIGITOToolStripMenuItem.Size = New System.Drawing.Size(394, 22)
+        Me.ROTARUNDIGITOToolStripMenuItem.Text = "ROTAR UN DIGITO"
+        '
+        'INTERCALARPRIMOSNOPRIMOSPRIMOSNOPRIMOSToolStripMenuItem
+        '
+        Me.INTERCALARPRIMOSNOPRIMOSPRIMOSNOPRIMOSToolStripMenuItem.Name = "INTERCALARPRIMOSNOPRIMOSPRIMOSNOPRIMOSToolStripMenuItem"
+        Me.INTERCALARPRIMOSNOPRIMOSPRIMOSNOPRIMOSToolStripMenuItem.Size = New System.Drawing.Size(394, 22)
+        Me.INTERCALARPRIMOSNOPRIMOSPRIMOSNOPRIMOSToolStripMenuItem.Text = "INTERCALAR (PRIMOS, NO PRIMOS,PRIMOS, NO PRIMOS,...)"
+        '
+        'ROTARMDIGITOSToolStripMenuItem
+        '
+        Me.ROTARMDIGITOSToolStripMenuItem.Name = "ROTARMDIGITOSToolStripMenuItem"
+        Me.ROTARMDIGITOSToolStripMenuItem.Size = New System.Drawing.Size(394, 22)
+        Me.ROTARMDIGITOSToolStripMenuItem.Text = "ROTAR M DIGITOS"
         '
         'TxtBx1
         '
@@ -259,194 +446,7 @@ Partial Class Formularo_Numeros_Enteros
         Me.PcBxFNNLogo.TabIndex = 11
         Me.PcBxFNNLogo.TabStop = False
         '
-        'ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem
-        '
-        Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem.Name = "ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem"
-        Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem.Text = "CONTAR LAS VECES QUE M SE ENCUENTRA EN N "
-        '
-        'NinclnumToolStripMenuItem
-        '
-        Me.NinclnumToolStripMenuItem.Name = "NinclnumToolStripMenuItem"
-        Me.NinclnumToolStripMenuItem.Size = New System.Drawing.Size(337, 22)
-        Me.NinclnumToolStripMenuItem.Text = "Contar digitos submultiplos de m"
-        '
-        'BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem
-        '
-        Me.BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem.Name = "BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem"
-        Me.BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem.Text = "BUSCAR SI EXISTE UN DIGITO EN UN NUMERO DE Class_Numero_Entero"
-        '
-        'CONTARDIGITOSCONFRECUENCIAPARToolStripMenuItem
-        '
-        Me.CONTARDIGITOSCONFRECUENCIAPARToolStripMenuItem.Name = "CONTARDIGITOSCONFRECUENCIAPARToolStripMenuItem"
-        Me.CONTARDIGITOSCONFRECUENCIAPARToolStripMenuItem.Size = New System.Drawing.Size(438, 22)
-        Me.CONTARDIGITOSCONFRECUENCIAPARToolStripMenuItem.Text = "CONTAR DIGITOS CON FRECUENCIA PAR"
-        '
-        'CONTARDIGITOSQUEPERTENCENALASERIEFIBONACCIToolStripMenuItem
-        '
-        Me.CONTARDIGITOSQUEPERTENCENALASERIEFIBONACCIToolStripMenuItem.Name = "CONTARDIGITOSQUEPERTENCENALASERIEFIBONACCIToolStripMenuItem"
-        Me.CONTARDIGITOSQUEPERTENCENALASERIEFIBONACCIToolStripMenuItem.Size = New System.Drawing.Size(438, 22)
-        Me.CONTARDIGITOSQUEPERTENCENALASERIEFIBONACCIToolStripMenuItem.Text = "CONTAR DIGITOS QUE PERTENCEN A LA SERIE FIBONACCI"
-        '
-        'VERIFICARSITODOSLOSDIGITOSSONPRIMOSToolStripMenuItem
-        '
-        Me.VERIFICARSITODOSLOSDIGITOSSONPRIMOSToolStripMenuItem.Name = "VERIFICARSITODOSLOSDIGITOSSONPRIMOSToolStripMenuItem"
-        Me.VERIFICARSITODOSLOSDIGITOSSONPRIMOSToolStripMenuItem.Size = New System.Drawing.Size(438, 22)
-        Me.VERIFICARSITODOSLOSDIGITOSSONPRIMOSToolStripMenuItem.Text = "VERIFICAR SI TODOS LOS DIGITOS SON PRIMOS"
-        '
-        'VERIFICARSILOSDIGITOSESTANENORDENDESCENDENTEToolStripMenuItem
-        '
-        Me.VERIFICARSILOSDIGITOSESTANENORDENDESCENDENTEToolStripMenuItem.Name = "VERIFICARSILOSDIGITOSESTANENORDENDESCENDENTEToolStripMenuItem"
-        Me.VERIFICARSILOSDIGITOSESTANENORDENDESCENDENTEToolStripMenuItem.Size = New System.Drawing.Size(438, 22)
-        Me.VERIFICARSILOSDIGITOSESTANENORDENDESCENDENTEToolStripMenuItem.Text = "VERIFICAR SI LOS DIGITOS ESTAN EN ORDEN DESCENDENTE"
-        '
-        'ELIMINARDIGITOSMULTIPLOSDED1ToolStripMenuItem
-        '
-        Me.ELIMINARDIGITOSMULTIPLOSDED1ToolStripMenuItem.Name = "ELIMINARDIGITOSMULTIPLOSDED1ToolStripMenuItem"
-        Me.ELIMINARDIGITOSMULTIPLOSDED1ToolStripMenuItem.Size = New System.Drawing.Size(438, 22)
-        Me.ELIMINARDIGITOSMULTIPLOSDED1ToolStripMenuItem.Text = "ELIMINAR DIGITOS MULTIPLOS DE D1"
-        '
-        'REORDENARDIGITOSPRIMOSALPRINCIPIONOPRIMOSALFINALToolStripMenuItem
-        '
-        Me.REORDENARDIGITOSPRIMOSALPRINCIPIONOPRIMOSALFINALToolStripMenuItem.Name = "REORDENARDIGITOSPRIMOSALPRINCIPIONOPRIMOSALFINALToolStripMenuItem"
-        Me.REORDENARDIGITOSPRIMOSALPRINCIPIONOPRIMOSALFINALToolStripMenuItem.Size = New System.Drawing.Size(438, 22)
-        Me.REORDENARDIGITOSPRIMOSALPRINCIPIONOPRIMOSALFINALToolStripMenuItem.Text = "REORDENAR DIGITOS (PRIMOS AL PRINCIPIO, NO PRIMOS AL FINAL)"
-        '
-        'FORMARUNNUMEROCONDIGITOSREPETIDOSToolStripMenuItem
-        '
-        Me.FORMARUNNUMEROCONDIGITOSREPETIDOSToolStripMenuItem.Name = "FORMARUNNUMEROCONDIGITOSREPETIDOSToolStripMenuItem"
-        Me.FORMARUNNUMEROCONDIGITOSREPETIDOSToolStripMenuItem.Size = New System.Drawing.Size(438, 22)
-        Me.FORMARUNNUMEROCONDIGITOSREPETIDOSToolStripMenuItem.Text = "FORMAR UN NUMERO CON DIGITOS REPETIDOS"
-        '
-        'VERIFICARSITODOSLOSDIGITOSNOSEREPITENToolStripMenuItem
-        '
-        Me.VERIFICARSITODOSLOSDIGITOSNOSEREPITENToolStripMenuItem.Name = "VERIFICARSITODOSLOSDIGITOSNOSEREPITENToolStripMenuItem"
-        Me.VERIFICARSITODOSLOSDIGITOSNOSEREPITENToolStripMenuItem.Size = New System.Drawing.Size(438, 22)
-        Me.VERIFICARSITODOSLOSDIGITOSNOSEREPITENToolStripMenuItem.Text = "VERIFICAR SI TODOS LOS DIGITOS NO SE REPITEN"
-        '
-        'PRACTICO2ToolStripMenuItem1
-        '
-        Me.PRACTICO2ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VERIFICARSILOSDIGITOSESTANENRAZONDEDOSToolStripMenuItem, Me.ROTARUNDIGITOToolStripMenuItem, Me.INTERCALARPRIMOSNOPRIMOSPRIMOSNOPRIMOSToolStripMenuItem, Me.ROTARMDIGITOSToolStripMenuItem})
-        Me.PRACTICO2ToolStripMenuItem1.Name = "PRACTICO2ToolStripMenuItem1"
-        Me.PRACTICO2ToolStripMenuItem1.Size = New System.Drawing.Size(132, 20)
-        Me.PRACTICO2ToolStripMenuItem1.Text = "PRACTICO 2° - PARTE"
-        '
-        'VERIFICARSILOSDIGITOSESTANENRAZONDEDOSToolStripMenuItem
-        '
-        Me.VERIFICARSILOSDIGITOSESTANENRAZONDEDOSToolStripMenuItem.Name = "VERIFICARSILOSDIGITOSESTANENRAZONDEDOSToolStripMenuItem"
-        Me.VERIFICARSILOSDIGITOSESTANENRAZONDEDOSToolStripMenuItem.Size = New System.Drawing.Size(394, 22)
-        Me.VERIFICARSILOSDIGITOSESTANENRAZONDEDOSToolStripMenuItem.Text = "VERIFICAR SI LOS DIGITOS ESTAN EN RAZON DE DOS"
-        '
-        'ROTARUNDIGITOToolStripMenuItem
-        '
-        Me.ROTARUNDIGITOToolStripMenuItem.Name = "ROTARUNDIGITOToolStripMenuItem"
-        Me.ROTARUNDIGITOToolStripMenuItem.Size = New System.Drawing.Size(394, 22)
-        Me.ROTARUNDIGITOToolStripMenuItem.Text = "ROTAR UN DIGITO"
-        '
-        'INTERCALARPRIMOSNOPRIMOSPRIMOSNOPRIMOSToolStripMenuItem
-        '
-        Me.INTERCALARPRIMOSNOPRIMOSPRIMOSNOPRIMOSToolStripMenuItem.Name = "INTERCALARPRIMOSNOPRIMOSPRIMOSNOPRIMOSToolStripMenuItem"
-        Me.INTERCALARPRIMOSNOPRIMOSPRIMOSNOPRIMOSToolStripMenuItem.Size = New System.Drawing.Size(394, 22)
-        Me.INTERCALARPRIMOSNOPRIMOSPRIMOSNOPRIMOSToolStripMenuItem.Text = "INTERCALAR (PRIMOS, NO PRIMOS,PRIMOS, NO PRIMOS,...)"
-        '
-        'ROTARMDIGITOSToolStripMenuItem
-        '
-        Me.ROTARMDIGITOSToolStripMenuItem.Name = "ROTARMDIGITOSToolStripMenuItem"
-        Me.ROTARMDIGITOSToolStripMenuItem.Size = New System.Drawing.Size(394, 22)
-        Me.ROTARMDIGITOSToolStripMenuItem.Text = "ROTAR M DIGITOS"
-        '
-        'VERIFICARSITODOSLOSDIGITOSSONIGUALESToolStripMenuItem
-        '
-        Me.VERIFICARSITODOSLOSDIGITOSSONIGUALESToolStripMenuItem.Name = "VERIFICARSITODOSLOSDIGITOSSONIGUALESToolStripMenuItem"
-        Me.VERIFICARSITODOSLOSDIGITOSSONIGUALESToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.VERIFICARSITODOSLOSDIGITOSSONIGUALESToolStripMenuItem.Text = "VERIFICAR SI TODOS LOS DIGITOS SON IGUALES"
-        '
-        'FRECUENCIADEUNDIGITOToolStripMenuItem
-        '
-        Me.FRECUENCIADEUNDIGITOToolStripMenuItem.Name = "FRECUENCIADEUNDIGITOToolStripMenuItem"
-        Me.FRECUENCIADEUNDIGITOToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.FRECUENCIADEUNDIGITOToolStripMenuItem.Text = "FRECUENCIA DE UN DIGITO"
-        '
-        'VERIFICARSITODOSLOSDIGITOSSEREPITENToolStripMenuItem
-        '
-        Me.VERIFICARSITODOSLOSDIGITOSSEREPITENToolStripMenuItem.Name = "VERIFICARSITODOSLOSDIGITOSSEREPITENToolStripMenuItem"
-        Me.VERIFICARSITODOSLOSDIGITOSSEREPITENToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.VERIFICARSITODOSLOSDIGITOSSEREPITENToolStripMenuItem.Text = "VERIFICAR SI TODOS LOS DIGITOS SE REPITEN"
-        '
-        'INVERTIRUNNUMERODEClassNumeroEnteroToolStripMenuItem
-        '
-        Me.INVERTIRUNNUMERODEClassNumeroEnteroToolStripMenuItem.Name = "INVERTIRUNNUMERODEClassNumeroEnteroToolStripMenuItem"
-        Me.INVERTIRUNNUMERODEClassNumeroEnteroToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.INVERTIRUNNUMERODEClassNumeroEnteroToolStripMenuItem.Text = "INVERTIR UN NUMERO DE Class_Numero_Entero"
-        '
-        'VERIFICARSIUNNUMERODEClassNumeroEnteroESCAPICUAToolStripMenuItem
-        '
-        Me.VERIFICARSIUNNUMERODEClassNumeroEnteroESCAPICUAToolStripMenuItem.Name = "VERIFICARSIUNNUMERODEClassNumeroEnteroESCAPICUAToolStripMenuItem"
-        Me.VERIFICARSIUNNUMERODEClassNumeroEnteroESCAPICUAToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.VERIFICARSIUNNUMERODEClassNumeroEnteroESCAPICUAToolStripMenuItem.Text = "VERIFICAR SI UN NUMERO DE Class_Numero_Entero ES CAPICUA"
-        '
-        'CONVERTIRUNNUMERODEClassNumeroEnteroENBINARIOToolStripMenuItem
-        '
-        Me.CONVERTIRUNNUMERODEClassNumeroEnteroENBINARIOToolStripMenuItem.Name = "CONVERTIRUNNUMERODEClassNumeroEnteroENBINARIOToolStripMenuItem"
-        Me.CONVERTIRUNNUMERODEClassNumeroEnteroENBINARIOToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.CONVERTIRUNNUMERODEClassNumeroEnteroENBINARIOToolStripMenuItem.Text = "CONVERTIR UN NUMERO DE Class_Numero_Entero EN BINARIO"
-        '
-        'CONVERTIRUNDECIMALAOTRABASE29ToolStripMenuItem
-        '
-        Me.CONVERTIRUNDECIMALAOTRABASE29ToolStripMenuItem.Name = "CONVERTIRUNDECIMALAOTRABASE29ToolStripMenuItem"
-        Me.CONVERTIRUNDECIMALAOTRABASE29ToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.CONVERTIRUNDECIMALAOTRABASE29ToolStripMenuItem.Text = "CONVERTIR UN DECIMAL A OTRA BASE(2..9)"
-        '
-        'FORMARUNNUMERODEClassNumeroEnteroCONDIGITOSPARESToolStripMenuItem
-        '
-        Me.FORMARUNNUMERODEClassNumeroEnteroCONDIGITOSPARESToolStripMenuItem.Name = "FORMARUNNUMERODEClassNumeroEnteroCONDIGITOSPARESToolStripMenuItem"
-        Me.FORMARUNNUMERODEClassNumeroEnteroCONDIGITOSPARESToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.FORMARUNNUMERODEClassNumeroEnteroCONDIGITOSPARESToolStripMenuItem.Text = "FORMAR UN NUMERO DE Class_Numero_Entero CON DIGITOS PARES"
-        '
-        'FUSIONARDOSNUMEROSDEClassNumeroEnteroToolStripMenuItem
-        '
-        Me.FUSIONARDOSNUMEROSDEClassNumeroEnteroToolStripMenuItem.Name = "FUSIONARDOSNUMEROSDEClassNumeroEnteroToolStripMenuItem"
-        Me.FUSIONARDOSNUMEROSDEClassNumeroEnteroToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.FUSIONARDOSNUMEROSDEClassNumeroEnteroToolStripMenuItem.Text = "FUSIONAR DOS NUMEROS DE Class_Numero_Entero"
-        '
-        'SEGMENTARORDENADAMENTEENPARESEIMPARESToolStripMenuItem
-        '
-        Me.SEGMENTARORDENADAMENTEENPARESEIMPARESToolStripMenuItem.Name = "SEGMENTARORDENADAMENTEENPARESEIMPARESToolStripMenuItem"
-        Me.SEGMENTARORDENADAMENTEENPARESEIMPARESToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.SEGMENTARORDENADAMENTEENPARESEIMPARESToolStripMenuItem.Text = "SEGMENTAR ORDENADAMENTE EN PARES E IMPARES"
-        '
-        'CORTARUNDIGITODEUNNUMERODEClassNumeroEnteroToolStripMenuItem
-        '
-        Me.CORTARUNDIGITODEUNNUMERODEClassNumeroEnteroToolStripMenuItem.Name = "CORTARUNDIGITODEUNNUMERODEClassNumeroEnteroToolStripMenuItem"
-        Me.CORTARUNDIGITODEUNNUMERODEClassNumeroEnteroToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.CORTARUNDIGITODEUNNUMERODEClassNumeroEnteroToolStripMenuItem.Text = "CORTAR UN DIGITO DE UN NUMERO DE Class_Numero_Entero"
-        '
-        'ORDENARDIGITOSToolStripMenuItem
-        '
-        Me.ORDENARDIGITOSToolStripMenuItem.Name = "ORDENARDIGITOSToolStripMenuItem"
-        Me.ORDENARDIGITOSToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.ORDENARDIGITOSToolStripMenuItem.Text = "ORDENAR DIGITOS"
-        '
-        'INTERCALARDIGITOSMAYORMENORMAYORMENORToolStripMenuItem
-        '
-        Me.INTERCALARDIGITOSMAYORMENORMAYORMENORToolStripMenuItem.Name = "INTERCALARDIGITOSMAYORMENORMAYORMENORToolStripMenuItem"
-        Me.INTERCALARDIGITOSMAYORMENORMAYORMENORToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.INTERCALARDIGITOSMAYORMENORMAYORMENORToolStripMenuItem.Text = "INTERCALAR DIGITOS (MAYOR,MENOR,MAYOR,MENOR,...)"
-        '
-        'VERIFICARSIUNNUMEROESFIBONACCIToolStripMenuItem
-        '
-        Me.VERIFICARSIUNNUMEROESFIBONACCIToolStripMenuItem.Name = "VERIFICARSIUNNUMEROESFIBONACCIToolStripMenuItem"
-        Me.VERIFICARSIUNNUMEROESFIBONACCIToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.VERIFICARSIUNNUMEROESFIBONACCIToolStripMenuItem.Text = "VERIFICAR SI UN NUMERO ES FIBONACCI"
-        '
-        'CONTARDIGITOSSUBMULTIPLOSDEMToolStripMenuItem
-        '
-        Me.CONTARDIGITOSSUBMULTIPLOSDEMToolStripMenuItem.Name = "CONTARDIGITOSSUBMULTIPLOSDEMToolStripMenuItem"
-        Me.CONTARDIGITOSSUBMULTIPLOSDEMToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.CONTARDIGITOSSUBMULTIPLOSDEMToolStripMenuItem.Text = "CONTAR DIGITOS SUBMULTIPLOS DE M"
-        '
-        'Formularo_Numeros_Naturales
+        'Formularo_Numeros_Enteros
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -468,9 +468,9 @@ Partial Class Formularo_Numeros_Enteros
         Me.MainMenuStrip = Me.MnStrpFNN
         Me.MaximumSize = New System.Drawing.Size(603, 456)
         Me.MinimumSize = New System.Drawing.Size(603, 456)
-        Me.Name = "Formularo_Numeros_Naturales"
+        Me.Name = "Formularo_Numeros_Enteros"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Formularo Numeros Naturales"
+        Me.Text = "Formularo Numeros Enteros"
         Me.MnStrpFNN.ResumeLayout(False)
         Me.MnStrpFNN.PerformLayout()
         CType(Me.PcBxFNNLogo, System.ComponentModel.ISupportInitialize).EndInit()
