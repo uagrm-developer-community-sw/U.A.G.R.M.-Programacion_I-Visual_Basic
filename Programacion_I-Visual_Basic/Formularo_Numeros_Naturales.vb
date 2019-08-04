@@ -26,7 +26,7 @@
     Private Sub SALIRToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SALIRToolStripMenuItem.Click
         BtnFNNSalir.PerformClick()
     End Sub
-    'LIMPIAR TODO TEXTOS MNSTRING
+    'LIMPIAR TODO TEXTOS "MNSTRING"
     Private Sub LIMPIARToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LIMPIARToolStripMenuItem.Click
         BtnFNNLimpiar.PerformClick()
 
@@ -43,16 +43,32 @@
     Private Sub BtnFNNDescargar_Click(sender As Object, e As EventArgs) Handles BtnFNNDescargar.Click
         TxtBx3.Text = CNEatural.descargar()
     End Sub
-    'CARGAR MNSTRING
+    'CARGAR "MNSTRING"
     Private Sub CARGARToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CARGARToolStripMenuItem.Click
         BtnFNNCargar.PerformClick()
     End Sub
-    'DESCARGAR MNSTRING
+    'DESCARGAR "MNSTRING"
     Private Sub DESCARGARToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DESCARGARToolStripMenuItem.Click
         BtnFNNDescargar.PerformClick()
     End Sub
-    'CONTAR DIGITOS MNSTRING
+    'CONTAR DIGITOS "MNSTRING"
     Private Sub ContarDgitosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ContarDgitosToolStripMenuItem.Click
         TxtBx3.Text = CNEatural.contar_digito()
+    End Sub
+    'CONTAR LAS VECES QUE M SE ENCUENTRA EN N "MNSTRING"
+    Private Sub ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem.Click
+        TxtBx3.Text = CNEatural.contar_veces_m_encuentra_n(TxtBx2.Text)
+    End Sub
+    'DIGITO MAYOR "MNSTRING"
+    Private Sub DigitoMayorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DigitoMayorToolStripMenuItem.Click
+        TxtBx3.Text = CNEatural.digito_mayor()
+    End Sub
+    'DIGITO MENOR "MNSTRING"
+    Private Sub DigitoMenorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DigitoMenorToolStripMenuItem.Click
+        TxtBx3.Text = CNEatural.digito_menor()
+    End Sub
+    'CONTAR DIGITOS SUBMULTIPLOS DE M "MNSTRING"
+    Private Sub NinclnumToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NinclnumToolStripMenuItem.Click
+        TxtBx3.Text = CNEatural.contar_digitos_submultiplos_m(TxtBx2.Text)
     End Sub
 End Class

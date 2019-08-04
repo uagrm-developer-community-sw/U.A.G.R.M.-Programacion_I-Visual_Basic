@@ -30,6 +30,9 @@ Partial Class Formularo_Numeros_Naturales
         Me.LIMPIARToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SALIRToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HERRAMIENTASToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContarDgitosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DigitoMayorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DigitoMenorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PRACTICO1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PRACTICO2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TxtBx1 = New System.Windows.Forms.TextBox()
@@ -43,9 +46,9 @@ Partial Class Formularo_Numeros_Naturales
         Me.BtnFNNLimTxtBx2 = New System.Windows.Forms.Button()
         Me.BtnFNNLimTxtBx3 = New System.Windows.Forms.Button()
         Me.PcBxFNNLogo = New System.Windows.Forms.PictureBox()
-        Me.ContarDgitosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DigitoMayorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DigitoMenorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NinclnumToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MnStrpFNN.SuspendLayout()
         CType(Me.PcBxFNNLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -69,33 +72,51 @@ Partial Class Formularo_Numeros_Naturales
         'CARGARToolStripMenuItem
         '
         Me.CARGARToolStripMenuItem.Name = "CARGARToolStripMenuItem"
-        Me.CARGARToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CARGARToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
         Me.CARGARToolStripMenuItem.Text = "CARGAR"
         '
         'DESCARGARToolStripMenuItem
         '
         Me.DESCARGARToolStripMenuItem.Name = "DESCARGARToolStripMenuItem"
-        Me.DESCARGARToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.DESCARGARToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
         Me.DESCARGARToolStripMenuItem.Text = "DESCARGAR"
         '
         'LIMPIARToolStripMenuItem
         '
         Me.LIMPIARToolStripMenuItem.Name = "LIMPIARToolStripMenuItem"
-        Me.LIMPIARToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LIMPIARToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
         Me.LIMPIARToolStripMenuItem.Text = "LIMPIAR"
         '
         'SALIRToolStripMenuItem
         '
         Me.SALIRToolStripMenuItem.Name = "SALIRToolStripMenuItem"
-        Me.SALIRToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SALIRToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
         Me.SALIRToolStripMenuItem.Text = "SALIR"
         '
         'HERRAMIENTASToolStripMenuItem
         '
-        Me.HERRAMIENTASToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContarDgitosToolStripMenuItem, Me.DigitoMayorToolStripMenuItem, Me.DigitoMenorToolStripMenuItem})
+        Me.HERRAMIENTASToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContarDgitosToolStripMenuItem, Me.DigitoMayorToolStripMenuItem, Me.DigitoMenorToolStripMenuItem, Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem, Me.NinclnumToolStripMenuItem, Me.BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem})
         Me.HERRAMIENTASToolStripMenuItem.Name = "HERRAMIENTASToolStripMenuItem"
         Me.HERRAMIENTASToolStripMenuItem.Size = New System.Drawing.Size(104, 20)
         Me.HERRAMIENTASToolStripMenuItem.Text = "HERRAMIENTAS"
+        '
+        'ContarDgitosToolStripMenuItem
+        '
+        Me.ContarDgitosToolStripMenuItem.Name = "ContarDgitosToolStripMenuItem"
+        Me.ContarDgitosToolStripMenuItem.Size = New System.Drawing.Size(292, 22)
+        Me.ContarDgitosToolStripMenuItem.Text = "Contar Dgitos"
+        '
+        'DigitoMayorToolStripMenuItem
+        '
+        Me.DigitoMayorToolStripMenuItem.Name = "DigitoMayorToolStripMenuItem"
+        Me.DigitoMayorToolStripMenuItem.Size = New System.Drawing.Size(292, 22)
+        Me.DigitoMayorToolStripMenuItem.Text = "Digito Mayor"
+        '
+        'DigitoMenorToolStripMenuItem
+        '
+        Me.DigitoMenorToolStripMenuItem.Name = "DigitoMenorToolStripMenuItem"
+        Me.DigitoMenorToolStripMenuItem.Size = New System.Drawing.Size(292, 22)
+        Me.DigitoMenorToolStripMenuItem.Text = "Digito Menor"
         '
         'PRACTICO1ToolStripMenuItem
         '
@@ -216,23 +237,23 @@ Partial Class Formularo_Numeros_Naturales
         Me.PcBxFNNLogo.TabIndex = 11
         Me.PcBxFNNLogo.TabStop = False
         '
-        'ContarDgitosToolStripMenuItem
+        'ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem
         '
-        Me.ContarDgitosToolStripMenuItem.Name = "ContarDgitosToolStripMenuItem"
-        Me.ContarDgitosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ContarDgitosToolStripMenuItem.Text = "Contar Dgitos"
+        Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem.Name = "ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem"
+        Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem.Size = New System.Drawing.Size(292, 22)
+        Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem.Text = "Contar las veces que m se encuentra en n"
         '
-        'DigitoMayorToolStripMenuItem
+        'NinclnumToolStripMenuItem
         '
-        Me.DigitoMayorToolStripMenuItem.Name = "DigitoMayorToolStripMenuItem"
-        Me.DigitoMayorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.DigitoMayorToolStripMenuItem.Text = "Digito Mayor"
+        Me.NinclnumToolStripMenuItem.Name = "NinclnumToolStripMenuItem"
+        Me.NinclnumToolStripMenuItem.Size = New System.Drawing.Size(292, 22)
+        Me.NinclnumToolStripMenuItem.Text = "Contar digitos submultiplos de m"
         '
-        'DigitoMenorToolStripMenuItem
+        'BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem
         '
-        Me.DigitoMenorToolStripMenuItem.Name = "DigitoMenorToolStripMenuItem"
-        Me.DigitoMenorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.DigitoMenorToolStripMenuItem.Text = "Digito Menor"
+        Me.BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem.Name = "BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem"
+        Me.BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem.Size = New System.Drawing.Size(292, 22)
+        Me.BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem.Text = "Buscar si existe un digito en un NE"
         '
         'Formularo_Numeros_Naturales
         '
@@ -290,4 +311,7 @@ Partial Class Formularo_Numeros_Naturales
     Friend WithEvents ContarDgitosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DigitoMayorToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DigitoMenorToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents NinclnumToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem As ToolStripMenuItem
 End Class

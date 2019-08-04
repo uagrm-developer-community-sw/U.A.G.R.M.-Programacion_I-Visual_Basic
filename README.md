@@ -2,14 +2,42 @@
 Universidad: U.A.G.R.M. - Materia: Programacion I - Lenguaje: Visual Basic - IDE: Visual Estudio 2019 Community
 
 ***************************************************************************************************************
-# NUMEROS NATURALES 
+# NUMEROS ENTEROS
 
 Ejercicios:
 
-1. Public Sub Cargar(ByVal dato As Integer)
-2. Public Function descargar() As Integer
-3. Public Function contar_digito() As Integer
-4. Public Function digito_mayor() As Integer
-5. Public Function digito_menor() As Integer
-6.
-7.
+1. 'CONTAR DIGITOS
+2. 'ENCONTRAR EL DIGITO MAYOR
+3. 'ENCONTRAR EL DIGITO MENOR
+4. 'CONTAR DIGITOS SUBMULTIPLOS DE M
+5. 'CONTAR LAS VECES QUE M SE ENCUENTRA EN N 
+6. 'BUSCAR SI EXISTE UN DIGITO EN UN NUMERO DE Class_Numero_Entero
+7. 'VERIFICAR SI TODOS LOS DIGITOS SON IGUALES
+8. 'FRECUENCIA DE UN DIGITO
+9. 'VERIFICAR SI TODOS LOS DIGITOS SE REPITEN
+10. 'INVERTIR UN NUMERO DE Class_Numero_Entero
+11. 'VERIFICAR SI UN NUMERO DE Class_Numero_Entero ES CAPICUA
+12. 'CONVERTIR UN NUMERO DE Class_Numero_Entero EN BINARIO
+13. 'CONVERTIR UN DECIMAL A OTRA BASE(2..9)
+14. 'FORMAR UN NUMERO DE Class_Numero_Entero CON DIGITOS PARES
+15. 'FUSIONAR DOS NUMEROS DE Class_Numero_Entero
+16. 'SEGMENTAR ORDENADAMENTE EN PARES E IMPARES
+17. 'CORTAR UN DIGITO DE UN NUMERO DE Class_Numero_Entero
+18. 'ORDENAR DIGITOS
+19. 'INTERCALAR DIGITOS (MAYOR,MENOR,MAYOR,MENOR,...)
+20. 'VERIFICAR SI UN NUMERO ES FIBONACCI
+----------------------------------------------------------------------------------------------------------------
+# PRACTICO I - Parte
+
+Ejercicios:
+
+1. CONTAR DIGITOS CON FRECUENCIA PAR
+2. CONTAR DIGITOS QUE PERTENCEN A LA SERIE FIBONACCI
+3. VERIFICAR SI TODOS LOS DIGITOS SON PRIMOS
+4. VERIFICAR SI LOS DIGITOS ESTAN EN ORDEN DESCENDENTE
+5. ELIMINAR DIGITOS MULTIPLOS DE D1
+6. REORDENAR DIGITOS (PRIMOS AL PRINCIPIO, NO PRIMOS AL FINAL)
+7. FORMAR UN NUMERO CON DIGITOS REPETIDOS
+8. VERIFICAR SI TODOS LOS DIGITOS NO SE REPITEN
+----------------------------------------------------------------------------------------------------------------
+# PRACTICO II - Parte
