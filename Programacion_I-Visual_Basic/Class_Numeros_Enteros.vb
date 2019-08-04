@@ -287,7 +287,26 @@
         End If
         Return b1
     End Function
+
     '******************************************************************************'
-    ' PRACTICO I PARTE
+    '                          PRACTICO I PARTE
     '******************************************************************************'
+
+
+    'CONTAR DIGITOS CON FRECUENCIA PAR
+    'CONTAR DIGITOS QUE PERTENCEN A LA SERIE FIBONACCI
+    'VERIFICAR SI TODOS LOS DIGITOS SON PRIMOS
+    'VERIFICAR SI LOS DIGITOS ESTAN EN ORDEN DESCENDENTE
+    'ELIMINAR DIGITOS MULTIPLOS DE D1
+    'REORDENAR DIGITOS (PRIMOS AL PRINCIPIO, NO PRIMOS AL FINAL)
+    'FORMAR UN NUMERO CON DIGITOS REPETIDOS
+    'VERIFICAR SI TODOS LOS DIGITOS NO SE REPITE
+
+    '******************************************************************************'
+    '                          PRACTICO II PARTE
+    '******************************************************************************'
+    'VERIFICAR SI LOS DIGITOS ESTAN EN RAZON DE DOS
+    'ROTAR UN DIGITO
+    'INTERCALAR (PRIMOS, NO PRIMOS,PRIMOS, NO PRIMOS,...)
+    'ROTAR M DIGITOS
 End Class
