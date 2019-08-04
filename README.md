@@ -11,6 +11,7 @@ Universidad: U.A.G.R.M. - Materia: Programacion I - Lenguaje: Visual Basic - IDE
 # CLASS NUMEROS ENTEROS
 # INCIO
 Ejercicios:
+
 1. 'CARGAR
 2. 'DESCARAR
 3. 'LIMPIAR
@@ -64,4 +65,4 @@ Ejercicios:
 4. 'ROTAR M DIGITOS
 ----------------------------------------------------------------------------------------------------------------
 # FORMULARIO NUMEROS NENTEROS
-
+![VisualStudioCommunity](Imagenes/formularionumerosenteros.png)
