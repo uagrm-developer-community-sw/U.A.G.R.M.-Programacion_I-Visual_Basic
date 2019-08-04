@@ -2,6 +2,9 @@
 Universidad: U.A.G.R.M. - Materia: Programacion I - Lenguaje: Visual Basic - IDE: Visual Estudio 2019 Community
 
 ***************************************************************************************************************
+# IDE: VISUAL STUDIO COMMUNITY 
+![VisualStudioCommunity](Imagenes/vs2019.png)
+----------------------------------------------------------------------------------------------------------------
 # IMAGEN FORMULARIO PRINCIPAL
 ![formularioprincipal](https://user-images.githubusercontent.com/36086876/62429746-7f871700-b6e0-11e9-8767-9b0529210fbc.png)
 ---------------------------------------------------------------------------------------------------------------
