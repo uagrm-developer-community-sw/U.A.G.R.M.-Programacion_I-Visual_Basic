@@ -11,3 +11,4 @@ Ejercicios:
 3. Public Function contar_digito() As Integer
 4. Public Function digito_mayor() As Integer
 5. Public Function digito_menor() As Integer
+6.
