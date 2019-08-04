@@ -3,7 +3,7 @@ Universidad: U.A.G.R.M. - Materia: Programacion I - Lenguaje: Visual Basic - IDE
 
 ***************************************************************************************************************
 # IMAGEN FORMULARIO PRINCIPAL
-![FORMULARIO PRINCIPAL](imagenes/formularioprincipal.png)
+![FORMULARIO PRINCIPAL](![formularioprincipal](https://user-images.githubusercontent.com/36086876/62429746-7f871700-b6e0-11e9-8767-9b0529210fbc.png))
 ---------------------------------------------------------------------------------------------------------------
 # CLASS NUMEROS ENTEROS
 # INCIO
