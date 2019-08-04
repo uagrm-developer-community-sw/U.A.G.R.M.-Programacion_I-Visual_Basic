@@ -12,3 +12,4 @@ Ejercicios:
 4. Public Function digito_mayor() As Integer
 5. Public Function digito_menor() As Integer
 6.
+7.
