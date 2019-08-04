@@ -1,4 +1,4 @@
-﻿Public Class Formularo_Numeros_Naturales
+﻿Public Class Formularo_Numeros_Enteros
     Dim CNEatural As Class_Numeros_Enteros
     'SALIR BTN
     Private Sub BtnFNNSalir_Click(sender As Object, e As EventArgs) Handles BtnFNNSalir.Click

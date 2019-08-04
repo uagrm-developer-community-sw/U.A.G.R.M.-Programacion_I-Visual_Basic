@@ -2,6 +2,10 @@
 Universidad: U.A.G.R.M. - Materia: Programacion I - Lenguaje: Visual Basic - IDE: Visual Estudio 2019 Community
 
 ***************************************************************************************************************
+# IMAGEN FORMULARIO PRINCIPAL
+![FORMULARIO PRINCIPAL](imagenes/formularioprincipal.png)
+---------------------------------------------------------------------------------------------------------------
+# CLASS NUMEROS ENTEROS
 # INCIO
 Ejercicios:
 1. 'CARGAR
@@ -55,3 +59,6 @@ Ejercicios:
 2. 'ROTAR UN DIGITO
 3. 'INTERCALAR (PRIMOS, NO PRIMOS,PRIMOS, NO PRIMOS,...)
 4. 'ROTAR M DIGITOS
+----------------------------------------------------------------------------------------------------------------
+# FORMULARIO NUMEROS NENTEROS
+

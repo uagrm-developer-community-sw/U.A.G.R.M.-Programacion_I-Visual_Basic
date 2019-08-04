@@ -81,10 +81,10 @@
       <DependentUpon>Formulario_Principal.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularo_Numeros_Naturales.Designer.vb">
-      <DependentUpon>Formularo_Numeros_Naturales.vb</DependentUpon>
+    <Compile Include="Formularo_Numeros_Enteros.Designer.vb">
+      <DependentUpon>Formularo_Numeros_Enteros.vb</DependentUpon>
     </Compile>
-    <Compile Include="Formularo_Numeros_Naturales.vb">
+    <Compile Include="Formularo_Numeros_Enteros.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -107,8 +107,8 @@
     <EmbeddedResource Include="Formulario_Principal.resx">
       <DependentUpon>Formulario_Principal.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularo_Numeros_Naturales.resx">
-      <DependentUpon>Formularo_Numeros_Naturales.vb</DependentUpon>
+    <EmbeddedResource Include="Formularo_Numeros_Enteros.resx">
+      <DependentUpon>Formularo_Numeros_Enteros.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

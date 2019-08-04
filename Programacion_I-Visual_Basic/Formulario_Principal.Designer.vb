@@ -24,10 +24,10 @@ Partial Class Formulario_Principal
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Formulario_Principal))
         Me.PanelFP = New System.Windows.Forms.Panel()
-        Me.BtnFPNaturales = New System.Windows.Forms.Button()
-        Me.BtnFPCadenas = New System.Windows.Forms.Button()
-        Me.BtnFPVectores = New System.Windows.Forms.Button()
         Me.BtnFPMatrices = New System.Windows.Forms.Button()
+        Me.BtnFPVectores = New System.Windows.Forms.Button()
+        Me.BtnFPCadenas = New System.Windows.Forms.Button()
+        Me.BtnFPEnteros = New System.Windows.Forms.Button()
         Me.PicBxFPLogo = New System.Windows.Forms.PictureBox()
         Me.PanelFP.SuspendLayout()
         CType(Me.PicBxFPLogo, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -39,31 +39,21 @@ Partial Class Formulario_Principal
         Me.PanelFP.Controls.Add(Me.BtnFPMatrices)
         Me.PanelFP.Controls.Add(Me.BtnFPVectores)
         Me.PanelFP.Controls.Add(Me.BtnFPCadenas)
-        Me.PanelFP.Controls.Add(Me.BtnFPNaturales)
+        Me.PanelFP.Controls.Add(Me.BtnFPEnteros)
         Me.PanelFP.Location = New System.Drawing.Point(1, 124)
         Me.PanelFP.Name = "PanelFP"
         Me.PanelFP.Size = New System.Drawing.Size(180, 302)
         Me.PanelFP.TabIndex = 1
         '
-        'BtnFPNaturales
+        'BtnFPMatrices
         '
-        Me.BtnFPNaturales.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnFPNaturales.Location = New System.Drawing.Point(22, 13)
-        Me.BtnFPNaturales.Name = "BtnFPNaturales"
-        Me.BtnFPNaturales.Size = New System.Drawing.Size(138, 63)
-        Me.BtnFPNaturales.TabIndex = 0
-        Me.BtnFPNaturales.Text = "Naturales"
-        Me.BtnFPNaturales.UseVisualStyleBackColor = True
-        '
-        'BtnFPCadenas
-        '
-        Me.BtnFPCadenas.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnFPCadenas.Location = New System.Drawing.Point(22, 82)
-        Me.BtnFPCadenas.Name = "BtnFPCadenas"
-        Me.BtnFPCadenas.Size = New System.Drawing.Size(138, 63)
-        Me.BtnFPCadenas.TabIndex = 1
-        Me.BtnFPCadenas.Text = "Cadenas"
-        Me.BtnFPCadenas.UseVisualStyleBackColor = True
+        Me.BtnFPMatrices.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnFPMatrices.Location = New System.Drawing.Point(22, 220)
+        Me.BtnFPMatrices.Name = "BtnFPMatrices"
+        Me.BtnFPMatrices.Size = New System.Drawing.Size(138, 63)
+        Me.BtnFPMatrices.TabIndex = 3
+        Me.BtnFPMatrices.Text = "Matrices"
+        Me.BtnFPMatrices.UseVisualStyleBackColor = True
         '
         'BtnFPVectores
         '
@@ -75,15 +65,25 @@ Partial Class Formulario_Principal
         Me.BtnFPVectores.Text = "Vectores"
         Me.BtnFPVectores.UseVisualStyleBackColor = True
         '
-        'BtnFPMatrices
+        'BtnFPCadenas
         '
-        Me.BtnFPMatrices.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnFPMatrices.Location = New System.Drawing.Point(22, 220)
-        Me.BtnFPMatrices.Name = "BtnFPMatrices"
-        Me.BtnFPMatrices.Size = New System.Drawing.Size(138, 63)
-        Me.BtnFPMatrices.TabIndex = 3
-        Me.BtnFPMatrices.Text = "Matrices"
-        Me.BtnFPMatrices.UseVisualStyleBackColor = True
+        Me.BtnFPCadenas.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnFPCadenas.Location = New System.Drawing.Point(22, 82)
+        Me.BtnFPCadenas.Name = "BtnFPCadenas"
+        Me.BtnFPCadenas.Size = New System.Drawing.Size(138, 63)
+        Me.BtnFPCadenas.TabIndex = 1
+        Me.BtnFPCadenas.Text = "Cadenas"
+        Me.BtnFPCadenas.UseVisualStyleBackColor = True
+        '
+        'BtnFPEnteros
+        '
+        Me.BtnFPEnteros.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnFPEnteros.Location = New System.Drawing.Point(22, 13)
+        Me.BtnFPEnteros.Name = "BtnFPEnteros"
+        Me.BtnFPEnteros.Size = New System.Drawing.Size(138, 63)
+        Me.BtnFPEnteros.TabIndex = 0
+        Me.BtnFPEnteros.Text = "Enteros"
+        Me.BtnFPEnteros.UseVisualStyleBackColor = True
         '
         'PicBxFPLogo
         '
@@ -121,6 +121,6 @@ Partial Class Formulario_Principal
     Friend WithEvents BtnFPMatrices As Button
     Friend WithEvents BtnFPVectores As Button
     Friend WithEvents BtnFPCadenas As Button
-    Friend WithEvents BtnFPNaturales As Button
+    Friend WithEvents BtnFPEnteros As Button
     Friend WithEvents PicBxFPLogo As PictureBox
 End Class
