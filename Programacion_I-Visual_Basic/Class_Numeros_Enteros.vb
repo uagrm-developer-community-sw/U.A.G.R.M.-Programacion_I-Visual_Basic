@@ -153,7 +153,7 @@
         Return (na.descargar() = num)
     End Function
     'CONVERTIR UN NUMERO DE Class_Numero_Entero EN BINARIO
-    Public Function dec_bin() As Integer
+    Public Function convertir_numero_class_numero_entero_binario() As Integer
         Dim na, n, d, c As Integer
         na = num
         c = -1
@@ -360,7 +360,7 @@
         End While
         Return (m = 0)
     End Function
-    'ELIMINAR DIGITOS MULTIPLOS DE D1
+    'ELIMINAR DIGITOS MULTIPLOS DE D
     Public Function eliminar_digitos_multiplos_d(ByVal d As Integer) As Integer
         Dim n, m, c, e As Integer
         n = num

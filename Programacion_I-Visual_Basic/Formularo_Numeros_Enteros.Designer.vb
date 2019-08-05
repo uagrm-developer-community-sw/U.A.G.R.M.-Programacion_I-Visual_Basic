@@ -36,7 +36,6 @@ Partial Class Formularo_Numeros_Enteros
         Me.DigitoMenorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CONTARDIGITOSSUBMULTIPLOSDEMToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NinclnumToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VERIFICARSITODOSLOSDIGITOSSONIGUALESToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FRECUENCIADEUNDIGITOToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -125,7 +124,7 @@ Partial Class Formularo_Numeros_Enteros
         '
         'HERRAMIENTASToolStripMenuItem
         '
-        Me.HERRAMIENTASToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContarDgitosToolStripMenuItem, Me.DigitoMayorToolStripMenuItem, Me.DigitoMenorToolStripMenuItem, Me.CONTARDIGITOSSUBMULTIPLOSDEMToolStripMenuItem, Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem, Me.NinclnumToolStripMenuItem, Me.BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem, Me.VERIFICARSITODOSLOSDIGITOSSONIGUALESToolStripMenuItem, Me.FRECUENCIADEUNDIGITOToolStripMenuItem, Me.VERIFICARSITODOSLOSDIGITOSSEREPITENToolStripMenuItem, Me.INVERTIRUNNUMERODEClassNumeroEnteroToolStripMenuItem, Me.VERIFICARSIUNNUMERODEClassNumeroEnteroESCAPICUAToolStripMenuItem, Me.CONVERTIRUNNUMERODEClassNumeroEnteroENBINARIOToolStripMenuItem, Me.CONVERTIRUNDECIMALAOTRABASE29ToolStripMenuItem, Me.FORMARUNNUMERODEClassNumeroEnteroCONDIGITOSPARESToolStripMenuItem, Me.FUSIONARDOSNUMEROSDEClassNumeroEnteroToolStripMenuItem, Me.SEGMENTARORDENADAMENTEENPARESEIMPARESToolStripMenuItem, Me.CORTARUNDIGITODEUNNUMERODEClassNumeroEnteroToolStripMenuItem, Me.ORDENARDIGITOSToolStripMenuItem, Me.INTERCALARDIGITOSMAYORMENORMAYORMENORToolStripMenuItem, Me.VERIFICARSIUNNUMEROESFIBONACCIToolStripMenuItem})
+        Me.HERRAMIENTASToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContarDgitosToolStripMenuItem, Me.DigitoMayorToolStripMenuItem, Me.DigitoMenorToolStripMenuItem, Me.CONTARDIGITOSSUBMULTIPLOSDEMToolStripMenuItem, Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem, Me.BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem, Me.VERIFICARSITODOSLOSDIGITOSSONIGUALESToolStripMenuItem, Me.FRECUENCIADEUNDIGITOToolStripMenuItem, Me.VERIFICARSITODOSLOSDIGITOSSEREPITENToolStripMenuItem, Me.INVERTIRUNNUMERODEClassNumeroEnteroToolStripMenuItem, Me.VERIFICARSIUNNUMERODEClassNumeroEnteroESCAPICUAToolStripMenuItem, Me.CONVERTIRUNNUMERODEClassNumeroEnteroENBINARIOToolStripMenuItem, Me.CONVERTIRUNDECIMALAOTRABASE29ToolStripMenuItem, Me.FORMARUNNUMERODEClassNumeroEnteroCONDIGITOSPARESToolStripMenuItem, Me.FUSIONARDOSNUMEROSDEClassNumeroEnteroToolStripMenuItem, Me.SEGMENTARORDENADAMENTEENPARESEIMPARESToolStripMenuItem, Me.CORTARUNDIGITODEUNNUMERODEClassNumeroEnteroToolStripMenuItem, Me.ORDENARDIGITOSToolStripMenuItem, Me.INTERCALARDIGITOSMAYORMENORMAYORMENORToolStripMenuItem, Me.VERIFICARSIUNNUMEROESFIBONACCIToolStripMenuItem})
         Me.HERRAMIENTASToolStripMenuItem.Name = "HERRAMIENTASToolStripMenuItem"
         Me.HERRAMIENTASToolStripMenuItem.Size = New System.Drawing.Size(104, 20)
         Me.HERRAMIENTASToolStripMenuItem.Text = "HERRAMIENTAS"
@@ -159,12 +158,6 @@ Partial Class Formularo_Numeros_Enteros
         Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem.Name = "ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem"
         Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
         Me.ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem.Text = "CONTAR LAS VECES QUE M SE ENCUENTRA EN N "
-        '
-        'NinclnumToolStripMenuItem
-        '
-        Me.NinclnumToolStripMenuItem.Name = "NinclnumToolStripMenuItem"
-        Me.NinclnumToolStripMenuItem.Size = New System.Drawing.Size(452, 22)
-        Me.NinclnumToolStripMenuItem.Text = "Contar digitos submultiplos de m"
         '
         'BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem
         '
@@ -516,7 +509,6 @@ Partial Class Formularo_Numeros_Enteros
     Friend WithEvents DigitoMayorToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DigitoMenorToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ContarLasVecesQueMSeEncuentraEnNToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents NinclnumToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BuscarSiExisteUnDigitoEnUnNEToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CONTARDIGITOSCONFRECUENCIAPARToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CONTARDIGITOSQUEPERTENCENALASERIEFIBONACCIToolStripMenuItem As ToolStripMenuItem
