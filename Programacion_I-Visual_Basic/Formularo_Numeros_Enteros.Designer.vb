@@ -22,6 +22,7 @@ Partial Class Formularo_Numeros_Enteros
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Formularo_Numeros_Enteros))
         Me.MnStrpFNN = New System.Windows.Forms.MenuStrip()
         Me.INICIOToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -76,6 +77,8 @@ Partial Class Formularo_Numeros_Enteros
         Me.BtnFNNLimTxtBx2 = New System.Windows.Forms.Button()
         Me.BtnFNNLimTxtBx3 = New System.Windows.Forms.Button()
         Me.PcBxFNNLogo = New System.Windows.Forms.PictureBox()
+        Me.PrgrssBrFNE = New System.Windows.Forms.ProgressBar()
+        Me.TimerFNE = New System.Windows.Forms.Timer(Me.components)
         Me.MnStrpFNN.SuspendLayout()
         CType(Me.PcBxFNNLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -99,25 +102,25 @@ Partial Class Formularo_Numeros_Enteros
         'CARGARToolStripMenuItem
         '
         Me.CARGARToolStripMenuItem.Name = "CARGARToolStripMenuItem"
-        Me.CARGARToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CARGARToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
         Me.CARGARToolStripMenuItem.Text = "CARGAR"
         '
         'DESCARGARToolStripMenuItem
         '
         Me.DESCARGARToolStripMenuItem.Name = "DESCARGARToolStripMenuItem"
-        Me.DESCARGARToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.DESCARGARToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
         Me.DESCARGARToolStripMenuItem.Text = "DESCARGAR"
         '
         'LIMPIARToolStripMenuItem
         '
         Me.LIMPIARToolStripMenuItem.Name = "LIMPIARToolStripMenuItem"
-        Me.LIMPIARToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LIMPIARToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
         Me.LIMPIARToolStripMenuItem.Text = "LIMPIAR"
         '
         'SALIRToolStripMenuItem
         '
         Me.SALIRToolStripMenuItem.Name = "SALIRToolStripMenuItem"
-        Me.SALIRToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SALIRToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
         Me.SALIRToolStripMenuItem.Text = "SALIR"
         '
         'HERRAMIENTASToolStripMenuItem
@@ -342,7 +345,7 @@ Partial Class Formularo_Numeros_Enteros
         'TxtBx1
         '
         Me.TxtBx1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtBx1.Location = New System.Drawing.Point(285, 168)
+        Me.TxtBx1.Location = New System.Drawing.Point(290, 155)
         Me.TxtBx1.Multiline = True
         Me.TxtBx1.Name = "TxtBx1"
         Me.TxtBx1.Size = New System.Drawing.Size(251, 38)
@@ -351,7 +354,7 @@ Partial Class Formularo_Numeros_Enteros
         'TxtBx2
         '
         Me.TxtBx2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtBx2.Location = New System.Drawing.Point(285, 231)
+        Me.TxtBx2.Location = New System.Drawing.Point(290, 218)
         Me.TxtBx2.Multiline = True
         Me.TxtBx2.Name = "TxtBx2"
         Me.TxtBx2.Size = New System.Drawing.Size(251, 38)
@@ -360,7 +363,7 @@ Partial Class Formularo_Numeros_Enteros
         'BtnFNNCargar
         '
         Me.BtnFNNCargar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnFNNCargar.Location = New System.Drawing.Point(42, 163)
+        Me.BtnFNNCargar.Location = New System.Drawing.Point(47, 150)
         Me.BtnFNNCargar.Name = "BtnFNNCargar"
         Me.BtnFNNCargar.Size = New System.Drawing.Size(110, 53)
         Me.BtnFNNCargar.TabIndex = 3
@@ -370,7 +373,7 @@ Partial Class Formularo_Numeros_Enteros
         'BtnFNNDescargar
         '
         Me.BtnFNNDescargar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnFNNDescargar.Location = New System.Drawing.Point(42, 222)
+        Me.BtnFNNDescargar.Location = New System.Drawing.Point(47, 209)
         Me.BtnFNNDescargar.Name = "BtnFNNDescargar"
         Me.BtnFNNDescargar.Size = New System.Drawing.Size(110, 53)
         Me.BtnFNNDescargar.TabIndex = 4
@@ -380,7 +383,7 @@ Partial Class Formularo_Numeros_Enteros
         'BtnFNNLimpiar
         '
         Me.BtnFNNLimpiar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnFNNLimpiar.Location = New System.Drawing.Point(42, 281)
+        Me.BtnFNNLimpiar.Location = New System.Drawing.Point(47, 268)
         Me.BtnFNNLimpiar.Name = "BtnFNNLimpiar"
         Me.BtnFNNLimpiar.Size = New System.Drawing.Size(110, 53)
         Me.BtnFNNLimpiar.TabIndex = 5
@@ -390,7 +393,7 @@ Partial Class Formularo_Numeros_Enteros
         'BtnFNNSalir
         '
         Me.BtnFNNSalir.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnFNNSalir.Location = New System.Drawing.Point(42, 340)
+        Me.BtnFNNSalir.Location = New System.Drawing.Point(47, 327)
         Me.BtnFNNSalir.Name = "BtnFNNSalir"
         Me.BtnFNNSalir.Size = New System.Drawing.Size(110, 53)
         Me.BtnFNNSalir.TabIndex = 6
@@ -400,7 +403,7 @@ Partial Class Formularo_Numeros_Enteros
         'TxtBx3
         '
         Me.TxtBx3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtBx3.Location = New System.Drawing.Point(285, 355)
+        Me.TxtBx3.Location = New System.Drawing.Point(290, 342)
         Me.TxtBx3.Multiline = True
         Me.TxtBx3.Name = "TxtBx3"
         Me.TxtBx3.Size = New System.Drawing.Size(251, 38)
@@ -409,7 +412,7 @@ Partial Class Formularo_Numeros_Enteros
         'BtnFNNLimTxtBx1
         '
         Me.BtnFNNLimTxtBx1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnFNNLimTxtBx1.Location = New System.Drawing.Point(204, 168)
+        Me.BtnFNNLimTxtBx1.Location = New System.Drawing.Point(209, 155)
         Me.BtnFNNLimTxtBx1.Name = "BtnFNNLimTxtBx1"
         Me.BtnFNNLimTxtBx1.Size = New System.Drawing.Size(75, 38)
         Me.BtnFNNLimTxtBx1.TabIndex = 8
@@ -419,7 +422,7 @@ Partial Class Formularo_Numeros_Enteros
         'BtnFNNLimTxtBx2
         '
         Me.BtnFNNLimTxtBx2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnFNNLimTxtBx2.Location = New System.Drawing.Point(204, 231)
+        Me.BtnFNNLimTxtBx2.Location = New System.Drawing.Point(209, 218)
         Me.BtnFNNLimTxtBx2.Name = "BtnFNNLimTxtBx2"
         Me.BtnFNNLimTxtBx2.Size = New System.Drawing.Size(75, 38)
         Me.BtnFNNLimTxtBx2.TabIndex = 9
@@ -429,7 +432,7 @@ Partial Class Formularo_Numeros_Enteros
         'BtnFNNLimTxtBx3
         '
         Me.BtnFNNLimTxtBx3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnFNNLimTxtBx3.Location = New System.Drawing.Point(204, 355)
+        Me.BtnFNNLimTxtBx3.Location = New System.Drawing.Point(209, 342)
         Me.BtnFNNLimTxtBx3.Name = "BtnFNNLimTxtBx3"
         Me.BtnFNNLimTxtBx3.Size = New System.Drawing.Size(75, 38)
         Me.BtnFNNLimTxtBx3.TabIndex = 10
@@ -446,12 +449,23 @@ Partial Class Formularo_Numeros_Enteros
         Me.PcBxFNNLogo.TabIndex = 11
         Me.PcBxFNNLogo.TabStop = False
         '
+        'PrgrssBrFNE
+        '
+        Me.PrgrssBrFNE.Location = New System.Drawing.Point(0, 399)
+        Me.PrgrssBrFNE.Name = "PrgrssBrFNE"
+        Me.PrgrssBrFNE.Size = New System.Drawing.Size(587, 40)
+        Me.PrgrssBrFNE.TabIndex = 12
+        '
+        'TimerFNE
+        '
+        '
         'Formularo_Numeros_Enteros
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(587, 417)
+        Me.ClientSize = New System.Drawing.Size(587, 441)
+        Me.Controls.Add(Me.PrgrssBrFNE)
         Me.Controls.Add(Me.PcBxFNNLogo)
         Me.Controls.Add(Me.BtnFNNLimTxtBx3)
         Me.Controls.Add(Me.BtnFNNLimTxtBx2)
@@ -466,8 +480,8 @@ Partial Class Formularo_Numeros_Enteros
         Me.Controls.Add(Me.MnStrpFNN)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MnStrpFNN
-        Me.MaximumSize = New System.Drawing.Size(603, 456)
-        Me.MinimumSize = New System.Drawing.Size(603, 456)
+        Me.MaximumSize = New System.Drawing.Size(603, 480)
+        Me.MinimumSize = New System.Drawing.Size(603, 480)
         Me.Name = "Formularo_Numeros_Enteros"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Formularo Numeros Enteros"
@@ -532,4 +546,6 @@ Partial Class Formularo_Numeros_Enteros
     Friend WithEvents INTERCALARDIGITOSMAYORMENORMAYORMENORToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents VERIFICARSIUNNUMEROESFIBONACCIToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CONTARDIGITOSSUBMULTIPLOSDEMToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PrgrssBrFNE As ProgressBar
+    Friend WithEvents TimerFNE As Timer
 End Class

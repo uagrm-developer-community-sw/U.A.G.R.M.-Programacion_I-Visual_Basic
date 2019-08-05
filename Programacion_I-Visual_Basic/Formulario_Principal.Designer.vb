@@ -22,6 +22,7 @@ Partial Class Formulario_Principal
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Formulario_Principal))
         Me.PanelFP = New System.Windows.Forms.Panel()
         Me.BtnFPMatrices = New System.Windows.Forms.Button()
@@ -29,6 +30,8 @@ Partial Class Formulario_Principal
         Me.BtnFPCadenas = New System.Windows.Forms.Button()
         Me.BtnFPEnteros = New System.Windows.Forms.Button()
         Me.PicBxFPLogo = New System.Windows.Forms.PictureBox()
+        Me.PrgrssBrFP = New System.Windows.Forms.ProgressBar()
+        Me.TimerFP = New System.Windows.Forms.Timer(Me.components)
         Me.PanelFP.SuspendLayout()
         CType(Me.PicBxFPLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -96,17 +99,28 @@ Partial Class Formulario_Principal
         Me.PicBxFPLogo.TabIndex = 2
         Me.PicBxFPLogo.TabStop = False
         '
+        'PrgrssBrFP
+        '
+        Me.PrgrssBrFP.Location = New System.Drawing.Point(1, 431)
+        Me.PrgrssBrFP.Name = "PrgrssBrFP"
+        Me.PrgrssBrFP.Size = New System.Drawing.Size(180, 23)
+        Me.PrgrssBrFP.TabIndex = 4
+        '
+        'TimerFP
+        '
+        '
         'Formulario_Principal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(182, 445)
+        Me.ClientSize = New System.Drawing.Size(182, 466)
+        Me.Controls.Add(Me.PrgrssBrFP)
         Me.Controls.Add(Me.PicBxFPLogo)
         Me.Controls.Add(Me.PanelFP)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.MaximumSize = New System.Drawing.Size(198, 484)
-        Me.MinimumSize = New System.Drawing.Size(198, 484)
+        Me.MaximumSize = New System.Drawing.Size(198, 505)
+        Me.MinimumSize = New System.Drawing.Size(198, 505)
         Me.Name = "Formulario_Principal"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Formulario Principal"
@@ -123,4 +137,6 @@ Partial Class Formulario_Principal
     Friend WithEvents BtnFPCadenas As Button
     Friend WithEvents BtnFPEnteros As Button
     Friend WithEvents PicBxFPLogo As PictureBox
+    Friend WithEvents PrgrssBrFP As ProgressBar
+    Friend WithEvents TimerFP As Timer
 End Class

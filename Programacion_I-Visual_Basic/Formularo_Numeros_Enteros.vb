@@ -33,7 +33,8 @@
     End Sub
     'CARGAR BTN
     Private Sub BtnFNNCargar_Click(sender As Object, e As EventArgs) Handles BtnFNNCargar.Click
-        CNEatural.Cargar(TxtBx1.Text)
+        TimerFNE.Start()
+        'CNEatural.Cargar(TxtBx1.Text)
     End Sub
     'ACTIVAR FORMULARIO
     Private Sub Formularo_Numeros_Naturales_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -70,5 +71,17 @@
     'CONTAR DIGITOS SUBMULTIPLOS DE M "MNSTRING"
     Private Sub NinclnumToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NinclnumToolStripMenuItem.Click
         TxtBx3.Text = CNEatural.contar_digitos_submultiplos_m(TxtBx2.Text)
+    End Sub
+
+    Private Sub TimerFNE_Tick(sender As Object, e As EventArgs) Handles TimerFNE.Tick
+
+        PrgrssBrFNE.Increment(5)
+        If PrgrssBrFNE.Value = 100 Then
+            CNEatural.Cargar(TxtBx1.Text)
+            PrgrssBrFNE.Value = 0
+            TimerFNE.Stop()
+
+        End If
+
     End Sub
 End Class
