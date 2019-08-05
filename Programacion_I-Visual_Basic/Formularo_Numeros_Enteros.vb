@@ -75,7 +75,7 @@
 
     Private Sub TimerFNE_Tick(sender As Object, e As EventArgs) Handles TimerFNE.Tick
 
-        PrgrssBrFNE.Increment(5)
+        PrgrssBrFNE.Increment(15)
         If PrgrssBrFNE.Value = 100 Then
             CNEatural.Cargar(TxtBx1.Text)
             PrgrssBrFNE.Value = 0
