@@ -103,4 +103,4 @@ Ejercicios:
 12. Contar palabras diferentes de una cadena. Se asume que existen palabras repetidas
 ---------------------------------------------------------------------------------------------------------------
 # Imagen: Formulario Cadena
-![FormularioCadena](Imagenes/formularionumerosenteros.png)
+![FormularioCadena](Imagenes/formulariocadena.png)
