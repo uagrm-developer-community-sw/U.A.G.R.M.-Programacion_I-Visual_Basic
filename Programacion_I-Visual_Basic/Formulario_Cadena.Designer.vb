@@ -34,25 +34,40 @@ Partial Class Formulario_Cadena
         Me.INICIAToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CargarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DescargarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FuncionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LimpiarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FuncionToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ObtenerPalabraiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PosicionDeLaPalabraiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ObtenerPalabrasMasExtensaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ObtenerPalabrasMasCortasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EliminarCaracterEnLaPosicionToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.InvertirCadenaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IntercambiarPalabraiConPalabrajToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EliminarPalabrasMasExtensaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EliminarPalabraMasCortaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EliminarPalabraiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VerificarConsonantesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProcedimientoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContarConsonantesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContarCaracteresDiferentesDeUnaFuncionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerificarSiUnaCadenaTieneLas5VocalesSeanEstasMayusculasOMinusculasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerificarSiUnaCadenaTieneMasVocalesQueConsonandesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EliminarLosCaracteresRepetidosYContinuosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContarPalabrasPalindromasDeUnaCadenaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ObtenerPalabraiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PosicionDeLaPalabraiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ObtenerPalabraMasExtensaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ObtenerPalabraMasCortaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FuncionToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ProcedimientoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EliminarCaracterEnLaPosicionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EliminarLosCaraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EliminarUnaPalabrapDeUnaCadenaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OrdenarPalabrasPorNumeroCaracteresDiferentesDeMenorAMayorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IntercalarPalabrasDeASuLongitudMasExtensaLuegoMasCortaasiSucesivamenteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.InvertirLasPalabrasDeUnaCadenaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EliminarPalabraRepetidaYContinuasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContarPalabrasDiferentesDeUnaCadenaSeAsumeQueExistenPalabrasRepetidasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PcBxFCLogo = New System.Windows.Forms.PictureBox()
         Me.TimerFC = New System.Windows.Forms.Timer(Me.components)
         Me.PrgrssBrFC = New System.Windows.Forms.ProgressBar()
         Me.RchTBoxFC1 = New System.Windows.Forms.RichTextBox()
         Me.RchTBoxFC2 = New System.Windows.Forms.RichTextBox()
+        Me.RchTBoxFC3 = New System.Windows.Forms.RichTextBox()
+        Me.BtnFCLimTxtBx3 = New System.Windows.Forms.Button()
         Me.MnStrpFC.SuspendLayout()
         CType(Me.PcBxFCLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -60,9 +75,9 @@ Partial Class Formulario_Cadena
         'BtnFCLimTxtBx2
         '
         Me.BtnFCLimTxtBx2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnFCLimTxtBx2.Location = New System.Drawing.Point(196, 288)
+        Me.BtnFCLimTxtBx2.Location = New System.Drawing.Point(196, 246)
         Me.BtnFCLimTxtBx2.Name = "BtnFCLimTxtBx2"
-        Me.BtnFCLimTxtBx2.Size = New System.Drawing.Size(75, 38)
+        Me.BtnFCLimTxtBx2.Size = New System.Drawing.Size(75, 37)
         Me.BtnFCLimTxtBx2.TabIndex = 17
         Me.BtnFCLimTxtBx2.Text = "LIMPIAR"
         Me.BtnFCLimTxtBx2.UseVisualStyleBackColor = True
@@ -128,7 +143,7 @@ Partial Class Formulario_Cadena
         '
         'INICIAToolStripMenuItem
         '
-        Me.INICIAToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CargarToolStripMenuItem, Me.DescargarToolStripMenuItem, Me.FuncionToolStripMenuItem})
+        Me.INICIAToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CargarToolStripMenuItem, Me.DescargarToolStripMenuItem, Me.LimpiarToolStripMenuItem, Me.SalirToolStripMenuItem})
         Me.INICIAToolStripMenuItem.Name = "INICIAToolStripMenuItem"
         Me.INICIAToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
         Me.INICIAToolStripMenuItem.Text = "INICIA"
@@ -136,101 +151,184 @@ Partial Class Formulario_Cadena
         'CargarToolStripMenuItem
         '
         Me.CargarToolStripMenuItem.Name = "CargarToolStripMenuItem"
-        Me.CargarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CargarToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
         Me.CargarToolStripMenuItem.Text = "Cargar"
         '
         'DescargarToolStripMenuItem
         '
         Me.DescargarToolStripMenuItem.Name = "DescargarToolStripMenuItem"
-        Me.DescargarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.DescargarToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
         Me.DescargarToolStripMenuItem.Text = "Descargar"
         '
-        'FuncionToolStripMenuItem
+        'LimpiarToolStripMenuItem
         '
-        Me.FuncionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContarConsonantesToolStripMenuItem, Me.ContarCaracteresDiferentesDeUnaFuncionToolStripMenuItem, Me.VerificarSiUnaCadenaTieneLas5VocalesSeanEstasMayusculasOMinusculasToolStripMenuItem, Me.VerificarSiUnaCadenaTieneMasVocalesQueConsonandesToolStripMenuItem, Me.ContarPalabrasPalindromasDeUnaCadenaToolStripMenuItem, Me.ObtenerPalabraiToolStripMenuItem, Me.PosicionDeLaPalabraiToolStripMenuItem, Me.ObtenerPalabraMasExtensaToolStripMenuItem, Me.ObtenerPalabraMasCortaToolStripMenuItem})
-        Me.FuncionToolStripMenuItem.Name = "FuncionToolStripMenuItem"
-        Me.FuncionToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.FuncionToolStripMenuItem.Text = "Funcion"
+        Me.LimpiarToolStripMenuItem.Name = "LimpiarToolStripMenuItem"
+        Me.LimpiarToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
+        Me.LimpiarToolStripMenuItem.Text = "Limpiar"
         '
-        'ContarConsonantesToolStripMenuItem
+        'SalirToolStripMenuItem
         '
-        Me.ContarConsonantesToolStripMenuItem.Name = "ContarConsonantesToolStripMenuItem"
-        Me.ContarConsonantesToolStripMenuItem.Size = New System.Drawing.Size(485, 22)
-        Me.ContarConsonantesToolStripMenuItem.Text = "Contar Consonantes"
+        Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
+        Me.SalirToolStripMenuItem.Text = "Salir"
         '
-        'ContarCaracteresDiferentesDeUnaFuncionToolStripMenuItem
+        'FuncionToolStripMenuItem1
         '
-        Me.ContarCaracteresDiferentesDeUnaFuncionToolStripMenuItem.Name = "ContarCaracteresDiferentesDeUnaFuncionToolStripMenuItem"
-        Me.ContarCaracteresDiferentesDeUnaFuncionToolStripMenuItem.Size = New System.Drawing.Size(485, 22)
-        Me.ContarCaracteresDiferentesDeUnaFuncionToolStripMenuItem.Text = "Contar caracteres diferentes de una funcion"
-        '
-        'VerificarSiUnaCadenaTieneLas5VocalesSeanEstasMayusculasOMinusculasToolStripMenuItem
-        '
-        Me.VerificarSiUnaCadenaTieneLas5VocalesSeanEstasMayusculasOMinusculasToolStripMenuItem.Name = "VerificarSiUnaCadenaTieneLas5VocalesSeanEstasMayusculasOMinusculasToolStripMenuIt" &
-    "em"
-        Me.VerificarSiUnaCadenaTieneLas5VocalesSeanEstasMayusculasOMinusculasToolStripMenuItem.Size = New System.Drawing.Size(485, 22)
-        Me.VerificarSiUnaCadenaTieneLas5VocalesSeanEstasMayusculasOMinusculasToolStripMenuItem.Text = "Verificar si una cadena tiene las 5 vocales, sean estas mayusculas o minusculas"
-        '
-        'VerificarSiUnaCadenaTieneMasVocalesQueConsonandesToolStripMenuItem
-        '
-        Me.VerificarSiUnaCadenaTieneMasVocalesQueConsonandesToolStripMenuItem.Name = "VerificarSiUnaCadenaTieneMasVocalesQueConsonandesToolStripMenuItem"
-        Me.VerificarSiUnaCadenaTieneMasVocalesQueConsonandesToolStripMenuItem.Size = New System.Drawing.Size(485, 22)
-        Me.VerificarSiUnaCadenaTieneMasVocalesQueConsonandesToolStripMenuItem.Text = "Verificar si una cadena tiene mas vocales que consonandes"
-        '
-        'ContarPalabrasPalindromasDeUnaCadenaToolStripMenuItem
-        '
-        Me.ContarPalabrasPalindromasDeUnaCadenaToolStripMenuItem.Name = "ContarPalabrasPalindromasDeUnaCadenaToolStripMenuItem"
-        Me.ContarPalabrasPalindromasDeUnaCadenaToolStripMenuItem.Size = New System.Drawing.Size(485, 22)
-        Me.ContarPalabrasPalindromasDeUnaCadenaToolStripMenuItem.Text = "Contar palabras palindromas de una cadena"
+        Me.FuncionToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ObtenerPalabraiToolStripMenuItem, Me.PosicionDeLaPalabraiToolStripMenuItem, Me.ObtenerPalabrasMasExtensaToolStripMenuItem, Me.ObtenerPalabrasMasCortasToolStripMenuItem, Me.EliminarCaracterEnLaPosicionToolStripMenuItem1, Me.InvertirCadenaToolStripMenuItem, Me.IntercambiarPalabraiConPalabrajToolStripMenuItem, Me.EliminarPalabrasMasExtensaToolStripMenuItem, Me.EliminarPalabraMasCortaToolStripMenuItem, Me.EliminarPalabraiToolStripMenuItem, Me.VerificarConsonantesToolStripMenuItem})
+        Me.FuncionToolStripMenuItem1.Name = "FuncionToolStripMenuItem1"
+        Me.FuncionToolStripMenuItem1.Size = New System.Drawing.Size(104, 20)
+        Me.FuncionToolStripMenuItem1.Text = "HERRAMIENTAS"
         '
         'ObtenerPalabraiToolStripMenuItem
         '
         Me.ObtenerPalabraiToolStripMenuItem.Name = "ObtenerPalabraiToolStripMenuItem"
-        Me.ObtenerPalabraiToolStripMenuItem.Size = New System.Drawing.Size(485, 22)
+        Me.ObtenerPalabraiToolStripMenuItem.Size = New System.Drawing.Size(280, 22)
         Me.ObtenerPalabraiToolStripMenuItem.Text = "Obtener palabra ""i"""
         '
         'PosicionDeLaPalabraiToolStripMenuItem
         '
         Me.PosicionDeLaPalabraiToolStripMenuItem.Name = "PosicionDeLaPalabraiToolStripMenuItem"
-        Me.PosicionDeLaPalabraiToolStripMenuItem.Size = New System.Drawing.Size(485, 22)
-        Me.PosicionDeLaPalabraiToolStripMenuItem.Text = "Posicion de la palabra ""i"" "
+        Me.PosicionDeLaPalabraiToolStripMenuItem.Size = New System.Drawing.Size(280, 22)
+        Me.PosicionDeLaPalabraiToolStripMenuItem.Text = "Posicion de la palabra ""i"""
         '
-        'ObtenerPalabraMasExtensaToolStripMenuItem
+        'ObtenerPalabrasMasExtensaToolStripMenuItem
         '
-        Me.ObtenerPalabraMasExtensaToolStripMenuItem.Name = "ObtenerPalabraMasExtensaToolStripMenuItem"
-        Me.ObtenerPalabraMasExtensaToolStripMenuItem.Size = New System.Drawing.Size(485, 22)
-        Me.ObtenerPalabraMasExtensaToolStripMenuItem.Text = "Obtener palabra mas extensa"
+        Me.ObtenerPalabrasMasExtensaToolStripMenuItem.Name = "ObtenerPalabrasMasExtensaToolStripMenuItem"
+        Me.ObtenerPalabrasMasExtensaToolStripMenuItem.Size = New System.Drawing.Size(280, 22)
+        Me.ObtenerPalabrasMasExtensaToolStripMenuItem.Text = "Obtener palabras mas extensa"
         '
-        'ObtenerPalabraMasCortaToolStripMenuItem
+        'ObtenerPalabrasMasCortasToolStripMenuItem
         '
-        Me.ObtenerPalabraMasCortaToolStripMenuItem.Name = "ObtenerPalabraMasCortaToolStripMenuItem"
-        Me.ObtenerPalabraMasCortaToolStripMenuItem.Size = New System.Drawing.Size(485, 22)
-        Me.ObtenerPalabraMasCortaToolStripMenuItem.Text = "Obtener palabra mas corta"
+        Me.ObtenerPalabrasMasCortasToolStripMenuItem.Name = "ObtenerPalabrasMasCortasToolStripMenuItem"
+        Me.ObtenerPalabrasMasCortasToolStripMenuItem.Size = New System.Drawing.Size(280, 22)
+        Me.ObtenerPalabrasMasCortasToolStripMenuItem.Text = "Obtener palabras mas cortas"
         '
-        'FuncionToolStripMenuItem1
+        'EliminarCaracterEnLaPosicionToolStripMenuItem1
         '
-        Me.FuncionToolStripMenuItem1.Name = "FuncionToolStripMenuItem1"
-        Me.FuncionToolStripMenuItem1.Size = New System.Drawing.Size(104, 20)
-        Me.FuncionToolStripMenuItem1.Text = "HERRAMIENTAS"
+        Me.EliminarCaracterEnLaPosicionToolStripMenuItem1.Name = "EliminarCaracterEnLaPosicionToolStripMenuItem1"
+        Me.EliminarCaracterEnLaPosicionToolStripMenuItem1.Size = New System.Drawing.Size(280, 22)
+        Me.EliminarCaracterEnLaPosicionToolStripMenuItem1.Text = "Eliminar caracter en la posicion"
+        '
+        'InvertirCadenaToolStripMenuItem
+        '
+        Me.InvertirCadenaToolStripMenuItem.Name = "InvertirCadenaToolStripMenuItem"
+        Me.InvertirCadenaToolStripMenuItem.Size = New System.Drawing.Size(280, 22)
+        Me.InvertirCadenaToolStripMenuItem.Text = "invertir cadena"
+        '
+        'IntercambiarPalabraiConPalabrajToolStripMenuItem
+        '
+        Me.IntercambiarPalabraiConPalabrajToolStripMenuItem.Name = "IntercambiarPalabraiConPalabrajToolStripMenuItem"
+        Me.IntercambiarPalabraiConPalabrajToolStripMenuItem.Size = New System.Drawing.Size(280, 22)
+        Me.IntercambiarPalabraiConPalabrajToolStripMenuItem.Text = "Intercambiar palabra ""i"" con palabra ""j"""
+        '
+        'EliminarPalabrasMasExtensaToolStripMenuItem
+        '
+        Me.EliminarPalabrasMasExtensaToolStripMenuItem.Name = "EliminarPalabrasMasExtensaToolStripMenuItem"
+        Me.EliminarPalabrasMasExtensaToolStripMenuItem.Size = New System.Drawing.Size(280, 22)
+        Me.EliminarPalabrasMasExtensaToolStripMenuItem.Text = "Eliminar palabras mas extensa"
+        '
+        'EliminarPalabraMasCortaToolStripMenuItem
+        '
+        Me.EliminarPalabraMasCortaToolStripMenuItem.Name = "EliminarPalabraMasCortaToolStripMenuItem"
+        Me.EliminarPalabraMasCortaToolStripMenuItem.Size = New System.Drawing.Size(280, 22)
+        Me.EliminarPalabraMasCortaToolStripMenuItem.Text = "Eliminar palabra mas corta"
+        '
+        'EliminarPalabraiToolStripMenuItem
+        '
+        Me.EliminarPalabraiToolStripMenuItem.Name = "EliminarPalabraiToolStripMenuItem"
+        Me.EliminarPalabraiToolStripMenuItem.Size = New System.Drawing.Size(280, 22)
+        Me.EliminarPalabraiToolStripMenuItem.Text = "Eliminar palabra ""i"""
+        '
+        'VerificarConsonantesToolStripMenuItem
+        '
+        Me.VerificarConsonantesToolStripMenuItem.Name = "VerificarConsonantesToolStripMenuItem"
+        Me.VerificarConsonantesToolStripMenuItem.Size = New System.Drawing.Size(280, 22)
+        Me.VerificarConsonantesToolStripMenuItem.Text = "Verificar consonantes"
         '
         'ProcedimientoToolStripMenuItem
         '
-        Me.ProcedimientoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EliminarCaracterEnLaPosicionToolStripMenuItem, Me.EliminarLosCaraToolStripMenuItem})
+        Me.ProcedimientoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContarConsonantesToolStripMenuItem, Me.ContarCaracteresDiferentesDeUnaFuncionToolStripMenuItem, Me.VerificarSiUnaCadenaTieneLas5VocalesSeanEstasMayusculasOMinusculasToolStripMenuItem, Me.VerificarSiUnaCadenaTieneMasVocalesQueConsonandesToolStripMenuItem, Me.EliminarLosCaracteresRepetidosYContinuosToolStripMenuItem, Me.ContarPalabrasPalindromasDeUnaCadenaToolStripMenuItem, Me.EliminarUnaPalabrapDeUnaCadenaToolStripMenuItem, Me.OrdenarPalabrasPorNumeroCaracteresDiferentesDeMenorAMayorToolStripMenuItem, Me.IntercalarPalabrasDeASuLongitudMasExtensaLuegoMasCortaasiSucesivamenteToolStripMenuItem, Me.InvertirLasPalabrasDeUnaCadenaToolStripMenuItem, Me.EliminarPalabraRepetidaYContinuasToolStripMenuItem, Me.ContarPalabrasDiferentesDeUnaCadenaSeAsumeQueExistenPalabrasRepetidasToolStripMenuItem})
         Me.ProcedimientoToolStripMenuItem.Name = "ProcedimientoToolStripMenuItem"
         Me.ProcedimientoToolStripMenuItem.Size = New System.Drawing.Size(75, 20)
         Me.ProcedimientoToolStripMenuItem.Text = "PRACTICO"
         '
-        'EliminarCaracterEnLaPosicionToolStripMenuItem
+        'ContarConsonantesToolStripMenuItem
         '
-        Me.EliminarCaracterEnLaPosicionToolStripMenuItem.Name = "EliminarCaracterEnLaPosicionToolStripMenuItem"
-        Me.EliminarCaracterEnLaPosicionToolStripMenuItem.Size = New System.Drawing.Size(238, 22)
-        Me.EliminarCaracterEnLaPosicionToolStripMenuItem.Text = "Eliminar caracter en la posicion"
+        Me.ContarConsonantesToolStripMenuItem.Name = "ContarConsonantesToolStripMenuItem"
+        Me.ContarConsonantesToolStripMenuItem.Size = New System.Drawing.Size(539, 22)
+        Me.ContarConsonantesToolStripMenuItem.Text = "1. Contar consonantes"
         '
-        'EliminarLosCaraToolStripMenuItem
+        'ContarCaracteresDiferentesDeUnaFuncionToolStripMenuItem
         '
-        Me.EliminarLosCaraToolStripMenuItem.Name = "EliminarLosCaraToolStripMenuItem"
-        Me.EliminarLosCaraToolStripMenuItem.Size = New System.Drawing.Size(238, 22)
-        Me.EliminarLosCaraToolStripMenuItem.Text = "Eliminar los Cara"
+        Me.ContarCaracteresDiferentesDeUnaFuncionToolStripMenuItem.Name = "ContarCaracteresDiferentesDeUnaFuncionToolStripMenuItem"
+        Me.ContarCaracteresDiferentesDeUnaFuncionToolStripMenuItem.Size = New System.Drawing.Size(539, 22)
+        Me.ContarCaracteresDiferentesDeUnaFuncionToolStripMenuItem.Text = "2. Contar caracteres diferentes de una funcion"
+        '
+        'VerificarSiUnaCadenaTieneLas5VocalesSeanEstasMayusculasOMinusculasToolStripMenuItem
+        '
+        Me.VerificarSiUnaCadenaTieneLas5VocalesSeanEstasMayusculasOMinusculasToolStripMenuItem.Name = "VerificarSiUnaCadenaTieneLas5VocalesSeanEstasMayusculasOMinusculasToolStripMenuIt" &
+    "em"
+        Me.VerificarSiUnaCadenaTieneLas5VocalesSeanEstasMayusculasOMinusculasToolStripMenuItem.Size = New System.Drawing.Size(539, 22)
+        Me.VerificarSiUnaCadenaTieneLas5VocalesSeanEstasMayusculasOMinusculasToolStripMenuItem.Text = "3. Verificar si una cadena tiene las 5 vocales, sean estas mayusculas o minuscula" &
+    "s"
+        '
+        'VerificarSiUnaCadenaTieneMasVocalesQueConsonandesToolStripMenuItem
+        '
+        Me.VerificarSiUnaCadenaTieneMasVocalesQueConsonandesToolStripMenuItem.Name = "VerificarSiUnaCadenaTieneMasVocalesQueConsonandesToolStripMenuItem"
+        Me.VerificarSiUnaCadenaTieneMasVocalesQueConsonandesToolStripMenuItem.Size = New System.Drawing.Size(539, 22)
+        Me.VerificarSiUnaCadenaTieneMasVocalesQueConsonandesToolStripMenuItem.Text = "4. Verificar si una cadena tiene mas vocales que consonandes"
+        '
+        'EliminarLosCaracteresRepetidosYContinuosToolStripMenuItem
+        '
+        Me.EliminarLosCaracteresRepetidosYContinuosToolStripMenuItem.Name = "EliminarLosCaracteresRepetidosYContinuosToolStripMenuItem"
+        Me.EliminarLosCaracteresRepetidosYContinuosToolStripMenuItem.Size = New System.Drawing.Size(539, 22)
+        Me.EliminarLosCaracteresRepetidosYContinuosToolStripMenuItem.Text = "5. Eliminar los Caracteres repetidos y continuos"
+        '
+        'ContarPalabrasPalindromasDeUnaCadenaToolStripMenuItem
+        '
+        Me.ContarPalabrasPalindromasDeUnaCadenaToolStripMenuItem.Name = "ContarPalabrasPalindromasDeUnaCadenaToolStripMenuItem"
+        Me.ContarPalabrasPalindromasDeUnaCadenaToolStripMenuItem.Size = New System.Drawing.Size(539, 22)
+        Me.ContarPalabrasPalindromasDeUnaCadenaToolStripMenuItem.Text = "6. Contar palabras palindromas de una cadena"
+        '
+        'EliminarUnaPalabrapDeUnaCadenaToolStripMenuItem
+        '
+        Me.EliminarUnaPalabrapDeUnaCadenaToolStripMenuItem.Name = "EliminarUnaPalabrapDeUnaCadenaToolStripMenuItem"
+        Me.EliminarUnaPalabrapDeUnaCadenaToolStripMenuItem.Size = New System.Drawing.Size(539, 22)
+        Me.EliminarUnaPalabrapDeUnaCadenaToolStripMenuItem.Text = "7. Eliminar una palabra ""p"" de una cadena"
+        '
+        'OrdenarPalabrasPorNumeroCaracteresDiferentesDeMenorAMayorToolStripMenuItem
+        '
+        Me.OrdenarPalabrasPorNumeroCaracteresDiferentesDeMenorAMayorToolStripMenuItem.Name = "OrdenarPalabrasPorNumeroCaracteresDiferentesDeMenorAMayorToolStripMenuItem"
+        Me.OrdenarPalabrasPorNumeroCaracteresDiferentesDeMenorAMayorToolStripMenuItem.Size = New System.Drawing.Size(539, 22)
+        Me.OrdenarPalabrasPorNumeroCaracteresDiferentesDeMenorAMayorToolStripMenuItem.Text = "8. Ordenar palabras por numero caracteres diferentes de menor a mayor"
+        '
+        'IntercalarPalabrasDeASuLongitudMasExtensaLuegoMasCortaasiSucesivamenteToolStripMenuItem
+        '
+        Me.IntercalarPalabrasDeASuLongitudMasExtensaLuegoMasCortaasiSucesivamenteToolStripMenuItem.Name = "IntercalarPalabrasDeASuLongitudMasExtensaLuegoMasCortaasiSucesivamenteToolStripMe" &
+    "nuItem"
+        Me.IntercalarPalabrasDeASuLongitudMasExtensaLuegoMasCortaasiSucesivamenteToolStripMenuItem.Size = New System.Drawing.Size(539, 22)
+        Me.IntercalarPalabrasDeASuLongitudMasExtensaLuegoMasCortaasiSucesivamenteToolStripMenuItem.Text = "9. Intercalar palabras de a su longitud mas extensa, luego mas corta, ...asi suce" &
+    "sivamente"
+        '
+        'InvertirLasPalabrasDeUnaCadenaToolStripMenuItem
+        '
+        Me.InvertirLasPalabrasDeUnaCadenaToolStripMenuItem.Name = "InvertirLasPalabrasDeUnaCadenaToolStripMenuItem"
+        Me.InvertirLasPalabrasDeUnaCadenaToolStripMenuItem.Size = New System.Drawing.Size(539, 22)
+        Me.InvertirLasPalabrasDeUnaCadenaToolStripMenuItem.Text = "10. invertir las palabras de una cadena"
+        '
+        'EliminarPalabraRepetidaYContinuasToolStripMenuItem
+        '
+        Me.EliminarPalabraRepetidaYContinuasToolStripMenuItem.Name = "EliminarPalabraRepetidaYContinuasToolStripMenuItem"
+        Me.EliminarPalabraRepetidaYContinuasToolStripMenuItem.Size = New System.Drawing.Size(539, 22)
+        Me.EliminarPalabraRepetidaYContinuasToolStripMenuItem.Text = "11. Eliminar palabra repetida y continuas"
+        '
+        'ContarPalabrasDiferentesDeUnaCadenaSeAsumeQueExistenPalabrasRepetidasToolStripMenuItem
+        '
+        Me.ContarPalabrasDiferentesDeUnaCadenaSeAsumeQueExistenPalabrasRepetidasToolStripMenuItem.Name = "ContarPalabrasDiferentesDeUnaCadenaSeAsumeQueExistenPalabrasRepetidasToolStripMen" &
+    "uItem"
+        Me.ContarPalabrasDiferentesDeUnaCadenaSeAsumeQueExistenPalabrasRepetidasToolStripMenuItem.Size = New System.Drawing.Size(539, 22)
+        Me.ContarPalabrasDiferentesDeUnaCadenaSeAsumeQueExistenPalabrasRepetidasToolStripMenuItem.Text = "12. Contar palabras diferentes de una cadena. Se asume que existen palabras repet" &
+    "idas"
         '
         'PcBxFCLogo
         '
@@ -256,17 +354,35 @@ Partial Class Formulario_Cadena
         '
         Me.RchTBoxFC1.Location = New System.Drawing.Point(277, 170)
         Me.RchTBoxFC1.Name = "RchTBoxFC1"
-        Me.RchTBoxFC1.Size = New System.Drawing.Size(273, 95)
+        Me.RchTBoxFC1.Size = New System.Drawing.Size(273, 53)
         Me.RchTBoxFC1.TabIndex = 22
         Me.RchTBoxFC1.Text = ""
         '
         'RchTBoxFC2
         '
-        Me.RchTBoxFC2.Location = New System.Drawing.Point(277, 288)
+        Me.RchTBoxFC2.Location = New System.Drawing.Point(277, 246)
         Me.RchTBoxFC2.Name = "RchTBoxFC2"
-        Me.RchTBoxFC2.Size = New System.Drawing.Size(273, 95)
+        Me.RchTBoxFC2.Size = New System.Drawing.Size(273, 56)
         Me.RchTBoxFC2.TabIndex = 23
         Me.RchTBoxFC2.Text = ""
+        '
+        'RchTBoxFC3
+        '
+        Me.RchTBoxFC3.Location = New System.Drawing.Point(277, 329)
+        Me.RchTBoxFC3.Name = "RchTBoxFC3"
+        Me.RchTBoxFC3.Size = New System.Drawing.Size(273, 71)
+        Me.RchTBoxFC3.TabIndex = 25
+        Me.RchTBoxFC3.Text = ""
+        '
+        'BtnFCLimTxtBx3
+        '
+        Me.BtnFCLimTxtBx3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnFCLimTxtBx3.Location = New System.Drawing.Point(196, 329)
+        Me.BtnFCLimTxtBx3.Name = "BtnFCLimTxtBx3"
+        Me.BtnFCLimTxtBx3.Size = New System.Drawing.Size(75, 37)
+        Me.BtnFCLimTxtBx3.TabIndex = 24
+        Me.BtnFCLimTxtBx3.Text = "LIMPIAR"
+        Me.BtnFCLimTxtBx3.UseVisualStyleBackColor = True
         '
         'Formulario_Cadena
         '
@@ -274,6 +390,8 @@ Partial Class Formulario_Cadena
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(588, 458)
+        Me.Controls.Add(Me.RchTBoxFC3)
+        Me.Controls.Add(Me.BtnFCLimTxtBx3)
         Me.Controls.Add(Me.RchTBoxFC2)
         Me.Controls.Add(Me.RchTBoxFC1)
         Me.Controls.Add(Me.PrgrssBrFC)
@@ -310,23 +428,38 @@ Partial Class Formulario_Cadena
     Friend WithEvents INICIAToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CargarToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DescargarToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents FuncionToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ContarConsonantesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ContarCaracteresDiferentesDeUnaFuncionToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents VerificarSiUnaCadenaTieneLas5VocalesSeanEstasMayusculasOMinusculasToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents VerificarSiUnaCadenaTieneMasVocalesQueConsonandesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ContarPalabrasPalindromasDeUnaCadenaToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ObtenerPalabraiToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents PosicionDeLaPalabraiToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ObtenerPalabraMasExtensaToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ObtenerPalabraMasCortaToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents FuncionToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents ProcedimientoToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents EliminarCaracterEnLaPosicionToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents EliminarLosCaraToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PcBxFCLogo As PictureBox
     Friend WithEvents TimerFC As Timer
     Friend WithEvents PrgrssBrFC As ProgressBar
     Friend WithEvents RchTBoxFC1 As RichTextBox
     Friend WithEvents RchTBoxFC2 As RichTextBox
+    Friend WithEvents LimpiarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SalirToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ObtenerPalabraiToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PosicionDeLaPalabraiToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ObtenerPalabrasMasExtensaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ObtenerPalabrasMasCortasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EliminarCaracterEnLaPosicionToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents InvertirCadenaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents IntercambiarPalabraiConPalabrajToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EliminarPalabrasMasExtensaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EliminarPalabraMasCortaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EliminarPalabraiToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ContarConsonantesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ContarCaracteresDiferentesDeUnaFuncionToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents VerificarSiUnaCadenaTieneLas5VocalesSeanEstasMayusculasOMinusculasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents VerificarSiUnaCadenaTieneMasVocalesQueConsonandesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EliminarLosCaracteresRepetidosYContinuosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ContarPalabrasPalindromasDeUnaCadenaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EliminarUnaPalabrapDeUnaCadenaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents OrdenarPalabrasPorNumeroCaracteresDiferentesDeMenorAMayorToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents IntercalarPalabrasDeASuLongitudMasExtensaLuegoMasCortaasiSucesivamenteToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents InvertirLasPalabrasDeUnaCadenaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EliminarPalabraRepetidaYContinuasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ContarPalabrasDiferentesDeUnaCadenaSeAsumeQueExistenPalabrasRepetidasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents VerificarConsonantesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents RchTBoxFC3 As RichTextBox
+    Friend WithEvents BtnFCLimTxtBx3 As Button
 End Class

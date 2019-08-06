@@ -12,6 +12,7 @@
     '============================='
     '        HERRAMIENTAS         '
     '============================='
+    'Verificar consonantes
     Function Verificar_Consonantes(ByVal i As Integer) As Boolean
         Dim Cons As String = "bcdfghjklmnñpqrstvwxyzBCDFGHJKLMNÑPQRSTVWXYZ"
         If InStr(Cons, s(i)) >= 1 Then
@@ -20,7 +21,7 @@
             Return False
         End If
     End Function
-
+    'Verificar caracteres
     Function Verificar_Caracter(ByVal s1 As String, ByVal i As Integer) As Boolean
         If InStr(s1, s(i)) >= 1 Then
             Return True
@@ -28,7 +29,7 @@
             Return False
         End If
     End Function
-
+    'Verificar vocales
     Function Verificar_Vocales(ByVal i As Integer) As Boolean
         Dim Vocales As String = "aeiouAEIOU"
         If InStr(Vocales, s(i)) >= 1 Then
@@ -37,6 +38,7 @@
             Return False
         End If
     End Function
+    'Contar vocales
     Function Contar_Vocales() As Integer
         Dim i, c As Integer
         c = 0
@@ -47,9 +49,11 @@
         Next
         Return c
     End Function
+    'Eliminar caracter en una posicion
     Sub eliminar_caracter_en_pos(ByVal pos As Integer)
         s = s.Remove(pos, 1)
     End Sub
+    'Invertir palabras
     Function Invertir_Palabra(ByVal pal As String) As String
         Dim i As Integer
         Dim s1 As String = ""
@@ -58,6 +62,7 @@
         Next
         Return s1
     End Function
+    'Intercalar palabras
     Sub Intercambiar_Palabras(ByVal i As Integer, ByVal j As Integer)
         Dim pal, pal1 As String
         Dim posI, posJ, Aux As Integer
@@ -82,6 +87,7 @@
             End If
         End If
     End Sub
+    'Obtener palabras mas extensa
     Function Obtener_Palabra_mas_Extensa() As String
         Dim i As Integer
         Dim PalExt, pal As String
@@ -94,6 +100,7 @@
         Next
         Return PalExt
     End Function
+    'Obtener palabras mas corta
     Function Obtener_Palabra_mas_Corta() As String
         Dim i As Integer
         Dim PalCor, pal As String
@@ -106,6 +113,7 @@
         Next
         Return PalCor
     End Function
+    'Eliminar palabras mas extensa
     Sub Elimnar_Palabra_mas_Extensa()
         Dim i, iPalExt As Integer
         Dim PalExt, pal As String
@@ -120,6 +128,7 @@
         Next
         Eliminar_Palabra(iPalExt)
     End Sub
+    'Eliminar palabra mas corta
     Sub Elimnar_Palabra_mas_Corta()
         Dim i, iPalCor As Integer
         Dim PalCor, pal As String
@@ -134,6 +143,7 @@
         Next
         Eliminar_Palabra(iPalCor)
     End Sub
+    'Eliminar palabra
     Sub Eliminar_Palabra(ByVal i As Integer)
         Dim pos As Integer
         Dim pal As String
@@ -148,6 +158,7 @@
         End If
         s = Trim(s)
     End Sub
+    'Verificar palabra
     Function Verificar_Palabra(ByVal s1 As String, ByVal i As Integer) As Boolean
         If InStr(s1, Obtener_Palabra(i)) >= 1 Then
             Return True
@@ -155,7 +166,7 @@
             Return False
         End If
     End Function
-    'i : ordinal de la palabra
+    'Ordenar de la palabra "i"
     Function Posicion(ByVal i As Integer) As Integer
         Dim c, pos As Integer
         Dim pal As String
@@ -170,6 +181,7 @@
         End If
         Return pos
     End Function
+    'Cantidad palabras
     Function Cantidad_Palabras() As Integer
         Dim s1 As String = s + " "
         Dim pal As String = " "
@@ -185,6 +197,7 @@
         End While
         Return x
     End Function
+    'Obtener palabra
     Function Obtener_Palabra(ByVal i As Integer) As String
         Dim pal As String = ""
         Dim s1 As String = s + " "
@@ -202,6 +215,7 @@
         End If
         Return pal
     End Function
+    'Invertir
     Sub Invertir()
         Dim i As Integer
         Dim s1 As String = ""

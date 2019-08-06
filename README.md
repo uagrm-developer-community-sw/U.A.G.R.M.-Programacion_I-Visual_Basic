@@ -77,7 +77,20 @@ Ejercicios:
 4. Salir
 ---------------------------------------------------------------------------------------------------------------
 # Herramientas:
+* Verificar consonantes
+* Verificar caracteres
+* Verificar vocales
+* Contar vocales
+* Eliminar caracter en una posicion
+* Invertir palabras
+* Intercalar palabras
+* Obtener palabras mas extensa
+* Obtener palabras mas corta
+* Eliminar palabra
+* Ordenar de la palabra "i"
 * Obtener palabra "i"
+* Cantidad palabras
+* Obtener palabra
 * Posicion de la palabra "i"
 * Obtener palabras mas extensa
 * Obtener palabras mas cortas
@@ -96,7 +109,7 @@ Ejercicios:
 5. Eliminar los Caracteres repetidos y continuos
 6. Contar palabras palindromas de una cadena
 7. Eliminar una palabra "p" de una cadena
-8. Ordenar palabras por numero caracteres diferentes de menor a MAYOR
+8. Ordenar palabras por numero caracteres diferentes de menor a mayor
 9. Intercalar palabras de a su longitud mas extensa, luego mas corta, ...asi sucesivamente
 10. invertir las palabras de una cadena
 11. Eliminar palabra repetida y continuas
