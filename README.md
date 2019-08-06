@@ -66,3 +66,35 @@ Ejercicios:
 ----------------------------------------------------------------------------------------------------------------
 # Imagen: Formulario Numeros enteros
 ![VisualStudioCommunity](Imagenes/formularionumerosenteros.png)
+---------------------------------------------------------------------------------------------------------------
+# Inicio:
+1. Cargar
+2. Descargar
+3. Limpiar
+4. Salir
+---------------------------------------------------------------------------------------------------------------
+# Herramientas:
+* Obtener palabra "i"
+* Posicion de la palabra "i"
+* Obtener palabras mas extensa
+* Obtener palabras mas cortas
+* Eliminar caracter en la posicion
+* invertir cadena
+* Intercambiar palabra "i" con palabra "j"
+* Eliminar palabras mas extensa
+* Eliminar palabra mas corta
+* Eliminar palabra "i"
+---------------------------------------------------------------------------------------------------------------
+# Practico:
+1. Contar consonantes
+2. Contar caracteres diferentes de una funcion
+3. Verificar si una cadena tiene las 5 vocales, sean estas mayusculas o minusculas
+4. Verificar si una cadena tiene mas vocales que consonandes
+5. Eliminar los Caracteres repetidos y continuos
+6. Contar palabras palindromas de una cadena
+7. Eliminar una palabra "p" de una cadena
+8. Ordenar palabras por numero caracteres diferentes de menor a MAYOR
+9. Intercalar palabras de a su longitud mas extensa, luego mas corta, ...asi sucesivamente
+10. invertir las palabras de una cadena
+11. Eliminar palabra repetida y continuas
+12. Contar palabras diferentes de una cadena. Se asume que existen palabras repetidas

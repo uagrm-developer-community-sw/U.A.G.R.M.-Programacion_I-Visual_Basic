@@ -73,7 +73,14 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class_Cadena.vb" />
     <Compile Include="Class_Numeros_Enteros.vb" />
+    <Compile Include="Formulario_Cadena.Designer.vb">
+      <DependentUpon>Formulario_Cadena.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_Cadena.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formulario_Principal.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +111,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Formulario_Cadena.resx">
+      <DependentUpon>Formulario_Cadena.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formulario_Principal.resx">
       <DependentUpon>Formulario_Principal.vb</DependentUpon>
     </EmbeddedResource>

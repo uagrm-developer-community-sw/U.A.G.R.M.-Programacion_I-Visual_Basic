@@ -29,9 +29,10 @@ Partial Class Formulario_Principal
         Me.BtnFPVectores = New System.Windows.Forms.Button()
         Me.BtnFPCadenas = New System.Windows.Forms.Button()
         Me.BtnFPEnteros = New System.Windows.Forms.Button()
-        Me.PicBxFPLogo = New System.Windows.Forms.PictureBox()
         Me.PrgrssBrFP = New System.Windows.Forms.ProgressBar()
-        Me.TimerFP = New System.Windows.Forms.Timer(Me.components)
+        Me.TimerFPEnteros = New System.Windows.Forms.Timer(Me.components)
+        Me.PicBxFPLogo = New System.Windows.Forms.PictureBox()
+        Me.TimerFPCadena = New System.Windows.Forms.Timer(Me.components)
         Me.PanelFP.SuspendLayout()
         CType(Me.PicBxFPLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -88,6 +89,16 @@ Partial Class Formulario_Principal
         Me.BtnFPEnteros.Text = "Enteros"
         Me.BtnFPEnteros.UseVisualStyleBackColor = True
         '
+        'PrgrssBrFP
+        '
+        Me.PrgrssBrFP.Location = New System.Drawing.Point(1, 431)
+        Me.PrgrssBrFP.Name = "PrgrssBrFP"
+        Me.PrgrssBrFP.Size = New System.Drawing.Size(180, 23)
+        Me.PrgrssBrFP.TabIndex = 4
+        '
+        'TimerFPEnteros
+        '
+        '
         'PicBxFPLogo
         '
         Me.PicBxFPLogo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
@@ -99,14 +110,7 @@ Partial Class Formulario_Principal
         Me.PicBxFPLogo.TabIndex = 2
         Me.PicBxFPLogo.TabStop = False
         '
-        'PrgrssBrFP
-        '
-        Me.PrgrssBrFP.Location = New System.Drawing.Point(1, 431)
-        Me.PrgrssBrFP.Name = "PrgrssBrFP"
-        Me.PrgrssBrFP.Size = New System.Drawing.Size(180, 23)
-        Me.PrgrssBrFP.TabIndex = 4
-        '
-        'TimerFP
+        'TimerFPCadena
         '
         '
         'Formulario_Principal
@@ -138,5 +142,6 @@ Partial Class Formulario_Principal
     Friend WithEvents BtnFPEnteros As Button
     Friend WithEvents PicBxFPLogo As PictureBox
     Friend WithEvents PrgrssBrFP As ProgressBar
-    Friend WithEvents TimerFP As Timer
+    Friend WithEvents TimerFPEnteros As Timer
+    Friend WithEvents TimerFPCadena As Timer
 End Class
