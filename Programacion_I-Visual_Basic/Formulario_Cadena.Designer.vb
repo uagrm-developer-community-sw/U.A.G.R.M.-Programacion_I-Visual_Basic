@@ -242,6 +242,9 @@ Partial Class Formulario_Cadena
         Me.PcBxFCLogo.TabIndex = 19
         Me.PcBxFCLogo.TabStop = False
         '
+        'TimerFC
+        '
+        '
         'PrgrssBrFC
         '
         Me.PrgrssBrFC.Location = New System.Drawing.Point(0, 420)

@@ -9,6 +9,7 @@ Universidad: U.A.G.R.M. - Materia: Programacion I - Lenguaje: Visual Basic - IDE
 ![formularioprincipal](Imagenes/formularioprincipal.png)
 ---------------------------------------------------------------------------------------------------------------
 # Class Numeros Enteros
+
 # Inicio
 Ejercicios:
 
@@ -65,8 +66,10 @@ Ejercicios:
 4. 'ROTAR M DIGITOS
 ----------------------------------------------------------------------------------------------------------------
 # Imagen: Formulario Numeros enteros
-![VisualStudioCommunity](Imagenes/formularionumerosenteros.png)
+![FormularioNumerosEnteros](Imagenes/formularionumerosenteros.png)
 ---------------------------------------------------------------------------------------------------------------
+# Class Cadena
+
 # Inicio:
 1. Cargar
 2. Descargar
@@ -98,3 +101,6 @@ Ejercicios:
 10. invertir las palabras de una cadena
 11. Eliminar palabra repetida y continuas
 12. Contar palabras diferentes de una cadena. Se asume que existen palabras repetidas
+---------------------------------------------------------------------------------------------------------------
+# Imagen: Formulario Cadena
+![FormularioCadena](Imagenes/formularionumerosenteros.png)
